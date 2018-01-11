@@ -1,0 +1,2297 @@
+[ 2017-06-07T08:43:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] www.prison.com/admin/index/index.html [运行时间：0.067168s][吞吐率：14.89req/s] [内存消耗：1,821.26kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:43:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] www.prison.com/admin/index/index.html [运行时间：0.067190s][吞吐率：14.88req/s] [内存消耗：1,821.26kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:43:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ log ] www.prison.com/admin/login/index.html [运行时间：0.027618s][吞吐率：36.21req/s] [内存消耗：1,685.18kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpStudy\WWW\prison\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:44:00+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/do_login.html
+[ log ] www.prison.com/admin/login/do_login.html [运行时间：0.062841s][吞吐率：15.91req/s] [内存消耗：2,392.16kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '49',
+  'referer' => 'http://www.prison.com/admin/login/index.html',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '赵隆宇',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ D:\phpStudy\WWW\prison\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001483s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.014725s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='赵隆宇' ) LIMIT 1 [ RunTime:0.002309s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T08:44:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] www.prison.com/admin/index/index.html [运行时间：0.048480s][吞吐率：20.63req/s] [内存消耗：2,520.06kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.prison.com/admin/login/do_login.html',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001040s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.006449s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.000437s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T08:44:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/suspect_list.html
+[ log ] www.prison.com/admin/index/suspect_list.html [运行时间：0.077500s][吞吐率：12.90req/s] [内存消耗：2,615.81kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.prison.com/admin/index/index.html',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_list[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\suspect_list.html [ array (
+  0 => 'find',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010387s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.007475s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_suspect` LIMIT 1 [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` LIMIT 0,4 [ RunTime:0.000635s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T08:44:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/suspect_add.html
+[ log ] www.prison.com/admin/index/suspect_add.html [运行时间：0.028871s][吞吐率：34.64req/s] [内存消耗：1,804.01kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.prison.com/admin/index/suspect_list.html',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_add[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\suspect_add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:44:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/city/beijing
+[ log ] www.prison.com/admin/index/city/beijing [运行时间：0.027171s][吞吐率：36.80req/s] [内存消耗：1,743.63kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'city',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->_empty[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:44:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/city/beijing/
+[ log ] www.prison.com/admin/index/city/beijing/ [运行时间：0.026595s][吞吐率：37.60req/s] [内存消耗：1,743.60kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'city',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->_empty[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:45:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/city/beijing/
+[ log ] www.prison.com/admin/index/city/beijing/ [运行时间：0.051790s][吞吐率：19.31req/s] [内存消耗：1,743.88kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'city',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->_empty[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:45:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/city/beijing/
+[ log ] www.prison.com/admin/index/city/beijing/ [运行时间：0.054097s][吞吐率：18.49req/s] [内存消耗：1,743.88kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'city',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->_empty[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:45:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/city/beijing/
+[ log ] www.prison.com/admin/index/city/beijing/ [运行时间：0.087659s][吞吐率：11.41req/s] [内存消耗：1,743.88kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'city',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->_empty[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:45:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/city/beijing/
+[ log ] www.prison.com/admin/index/city/beijing/ [运行时间：0.036347s][吞吐率：27.51req/s] [内存消耗：1,743.88kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'city',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->_empty[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:45:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/city/beijing/
+[ log ] www.prison.com/admin/index/city/beijing/ [运行时间：0.025764s][吞吐率：38.81req/s] [内存消耗：1,743.60kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'city',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->_empty[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:45:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/city/
+[ log ] www.prison.com/admin/index/city/ [运行时间：0.027029s][吞吐率：37.00req/s] [内存消耗：1,743.66kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'city',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->_empty[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:45:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index
+[ log ] www.prison.com/admin/index [运行时间：0.052400s][吞吐率：19.08req/s] [内存消耗：2,519.77kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006343s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.005195s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.000371s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T08:45:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/empty
+[ log ] www.prison.com/admin/empty [运行时间：0.027665s][吞吐率：36.15req/s] [内存消耗：1,380.40kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'empty',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:45:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/city
+[ log ] www.prison.com/admin/city [运行时间：0.021163s][吞吐率：47.25req/s] [内存消耗：1,380.38kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'city',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:45:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/city/
+[ log ] www.prison.com/admin/index/city/ [运行时间：0.028397s][吞吐率：35.22req/s] [内存消耗：1,743.66kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'city',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->_empty[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:45:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/beijing/
+[ log ] www.prison.com/admin/index/beijing/ [运行时间：0.025424s][吞吐率：39.33req/s] [内存消耗：1,743.61kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'beijing',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->_empty[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:46:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/beijing/
+[ log ] www.prison.com/admin/index/beijing/ [运行时间：0.063467s][吞吐率：15.76req/s] [内存消耗：1,778.45kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'beijing',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:46:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/beijing/
+[ log ] www.prison.com/admin/index/beijing/ [运行时间：0.069437s][吞吐率：14.40req/s] [内存消耗：1,778.45kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'beijing',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:46:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/beijing/
+[ log ] www.prison.com/admin/index/beijing/ [运行时间：0.089891s][吞吐率：11.12req/s] [内存消耗：1,743.90kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'beijing',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->_empty[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:46:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/beijing/
+[ log ] www.prison.com/admin/index/beijing/ [运行时间：0.026797s][吞吐率：37.32req/s] [内存消耗：1,743.90kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'beijing',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->_empty[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:46:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/beijing/
+[ log ] www.prison.com/admin/index/beijing/ [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,777.93kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'beijing',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:46:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/city/
+[ log ] www.prison.com/admin/index/city/ [运行时间：0.032757s][吞吐率：30.53req/s] [内存消耗：1,777.71kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'city',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:46:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/city/
+[ log ] www.prison.com/admin/index/city/ [运行时间：0.031894s][吞吐率：31.35req/s] [内存消耗：1,777.71kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'city',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:46:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/indexindex
+[ log ] www.prison.com/admin/indexindex [运行时间：0.021530s][吞吐率：46.45req/s] [内存消耗：1,380.48kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'indexindex',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:46:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] www.prison.com/admin/index/index.html [运行时间：0.047305s][吞吐率：21.14req/s] [内存消耗：2,518.66kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000603s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.006848s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.000369s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T08:48:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/city/
+[ log ] www.prison.com/admin/index/city/ [运行时间：0.028186s][吞吐率：35.48req/s] [内存消耗：1,743.66kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'city',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->_empty[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:48:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/shanghai/
+[ log ] www.prison.com/admin/index/shanghai/ [运行时间：0.024881s][吞吐率：40.19req/s] [内存消耗：1,743.70kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'shanghai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->_empty[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T08:48:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/shanghai/
+[ log ] www.prison.com/admin/shanghai/ [运行时间：0.022351s][吞吐率：44.74req/s] [内存消耗：1,380.46kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'shanghai',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9073051648; PHPSESSID=021lvf2v5k0hr0ml68rarq0fq0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T11:05:06+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.prison.com/ [运行时间：0.028346s][吞吐率：35.28req/s] [内存消耗：1,345.98kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T11:05:06+08:00 ] 127.0.0.1 127.0.0.1 GET HTTP://www.prison.com/
+[ log ] www.prison.comHTTP://www.prison.com/ [运行时间：0.028864s][吞吐率：34.65req/s] [内存消耗：1,346.17kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T11:05:06+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.prison.com/ [运行时间：0.027524s][吞吐率：36.33req/s] [内存消耗：1,345.98kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T15:32:59+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.prison.com/ [运行时间：0.032104s][吞吐率：31.15req/s] [内存消耗：1,347.01kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T15:33:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.com
+[ log ] www.prison.com/admin.com [运行时间：0.028974s][吞吐率：34.51req/s] [内存消耗：1,379.81kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin.com',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=724215808; pgv_si=s8506491904',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T15:33:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index
+[ log ] www.prison.com/admin/index [运行时间：0.037054s][吞吐率：26.99req/s] [内存消耗：1,821.20kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=724215808; pgv_si=s8506491904',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T15:33:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ log ] www.prison.com/admin/login/index.html [运行时间：0.033732s][吞吐率：29.65req/s] [内存消耗：1,685.12kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=724215808; pgv_si=s8506491904; PHPSESSID=2qfprpv6lmdfguolb57ba8l4a5',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpStudy\WWW\prison\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T15:33:16+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/do_login.html
+[ log ] www.prison.com/admin/login/do_login.html [运行时间：0.064740s][吞吐率：15.45req/s] [内存消耗：2,332.33kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '50',
+  'referer' => 'http://www.prison.com/admin/login/index.html',
+  'cookie' => 'pgv_pvi=724215808; pgv_si=s8506491904; PHPSESSID=2qfprpv6lmdfguolb57ba8l4a5',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '赵隆宇',
+  'password' => '1111',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ D:\phpStudy\WWW\prison\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011068s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.005318s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='赵隆宇' ) LIMIT 1 [ RunTime:0.000316s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T15:33:19+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/do_login.html
+[ log ] www.prison.com/admin/login/do_login.html [运行时间：0.058792s][吞吐率：17.01req/s] [内存消耗：2,392.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '49',
+  'referer' => 'http://www.prison.com/admin/login/index.html',
+  'cookie' => 'pgv_pvi=724215808; pgv_si=s8506491904; PHPSESSID=2qfprpv6lmdfguolb57ba8l4a5',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '赵隆宇',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ D:\phpStudy\WWW\prison\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000642s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.007421s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='赵隆宇' ) LIMIT 1 [ RunTime:0.000498s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T15:33:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] www.prison.com/admin/index/index.html [运行时间：0.053922s][吞吐率：18.55req/s] [内存消耗：2,520.12kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.prison.com/admin/login/do_login.html',
+  'cookie' => 'pgv_pvi=724215808; pgv_si=s8506491904; PHPSESSID=2qfprpv6lmdfguolb57ba8l4a5',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000690s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.006609s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.000375s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T15:33:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/user_list.html
+[ log ] www.prison.com/admin/index/user_list.html [运行时间：0.064077s][吞吐率：15.61req/s] [内存消耗：2,612.55kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.prison.com/admin/index/index.html',
+  'cookie' => 'pgv_pvi=724215808; pgv_si=s8506491904; PHPSESSID=2qfprpv6lmdfguolb57ba8l4a5',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->user_list[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\user_list.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001145s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.006611s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_user` LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` LIMIT 0,4 [ RunTime:0.000349s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T18:57:26+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.prison.com/ [运行时间：0.046832s][吞吐率：21.35req/s] [内存消耗：1,346.97kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T18:57:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.prison.com/admin [运行时间：0.045264s][吞吐率：22.09req/s] [内存消耗：1,819.77kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T18:57:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ log ] www.prison.com/admin/login/index.html [运行时间：0.033399s][吞吐率：29.94req/s] [内存消耗：1,685.07kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=lv07ds0ok09mnuapc867addc41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpStudy\WWW\prison\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T18:57:38+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/do_login.html
+[ log ] www.prison.com/admin/login/do_login.html [运行时间：0.052179s][吞吐率：19.16req/s] [内存消耗：2,392.47kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'connection' => 'keep-alive',
+  'content-length' => '49',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.prison.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.prison.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=lv07ds0ok09mnuapc867addc41',
+)
+[ info ] [ PARAM ] array (
+  'username' => '赵隆宇',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ D:\phpStudy\WWW\prison\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000945s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.008400s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='赵隆宇' ) LIMIT 1 [ RunTime:0.000247s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T18:57:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] www.prison.com/admin/index/index.html [运行时间：0.055561s][吞吐率：18.00req/s] [内存消耗：2,518.91kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.prison.com/admin/login/do_login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=lv07ds0ok09mnuapc867addc41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010675s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.006819s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.000282s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T18:57:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/goods_list.html
+[ log ] www.prison.com/admin/index/goods_list.html [运行时间：0.061279s][吞吐率：16.32req/s] [内存消耗：2,613.16kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'goods_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.prison.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=lv07ds0ok09mnuapc867addc41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->goods_list[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\goods_list.html [ array (
+  0 => 'page',
+  1 => 'lawslist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000458s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_goods` [ RunTime:0.006036s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_goods` LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_goods` LIMIT 0,4 [ RunTime:0.000282s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T18:57:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/offer_list.html
+[ log ] www.prison.com/admin/index/offer_list.html [运行时间：0.063600s][吞吐率：15.72req/s] [内存消耗：2,614.24kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'offer_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.prison.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=lv07ds0ok09mnuapc867addc41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->offer_list[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\offer_list.html [ array (
+  0 => 'page',
+  1 => 'offerlist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001547s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_offer` [ RunTime:0.014162s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_offer` `a` INNER JOIN `jy_suspect` `suspect` ON `suspect`.`Id`=`a`.`mid` INNER JOIN `jy_goods` `goods` ON `goods`.`Id`=`a`.`goodsid` LIMIT 1 [ RunTime:0.002878s ]
+[ sql ] [ SQL ] SELECT `suspect`.`membername`,`a`.`Id`,suspect.Id as sid,goods.Id as gid,`goods`.`goodsname`,`a`.`pubdate`,`a`.`nums`,`a`.`status` FROM `jy_offer` `a` INNER JOIN `jy_suspect` `suspect` ON `suspect`.`Id`=`a`.`mid` INNER JOIN `jy_goods` `goods` ON `goods`.`Id`=`a`.`goodsid` LIMIT 0,4 [ RunTime:0.000688s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T18:57:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/suspect_list.html
+[ log ] www.prison.com/admin/index/suspect_list.html [运行时间：0.050088s][吞吐率：19.96req/s] [内存消耗：2,614.34kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.prison.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=lv07ds0ok09mnuapc867addc41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_list[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\suspect_list.html [ array (
+  0 => 'find',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000785s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.005579s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_suspect` LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` LIMIT 0,4 [ RunTime:0.000248s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T18:57:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] www.prison.com/index.php [运行时间：0.026292s][吞吐率：38.03req/s] [内存消耗：1,345.55kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T22:39:20+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.prison.com/ [运行时间：0.025506s][吞吐率：39.21req/s] [内存消耗：1,347.13kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=724215808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T22:39:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/
+[ log ] www.prison.com/admin/ [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：1,819.99kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=724215808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T22:39:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ log ] www.prison.com/admin/login/index.html [运行时间：0.027263s][吞吐率：36.68req/s] [内存消耗：1,684.95kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=724215808; PHPSESSID=bpgskvq46i96ncieg4cf8bkc16',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpStudy\WWW\prison\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T22:39:31+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/do_login.html
+[ log ] www.prison.com/admin/login/do_login.html [运行时间：0.062138s][吞吐率：16.09req/s] [内存消耗：2,392.12kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '49',
+  'referer' => 'http://www.prison.com/admin/login/index.html',
+  'cookie' => 'pgv_pvi=724215808; PHPSESSID=bpgskvq46i96ncieg4cf8bkc16',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '赵隆宇',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ D:\phpStudy\WWW\prison\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009586s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.005776s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='赵隆宇' ) LIMIT 1 [ RunTime:0.000388s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T22:39:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] www.prison.com/admin/index/index.html [运行时间：0.046930s][吞吐率：21.31req/s] [内存消耗：2,519.01kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.prison.com/admin/login/do_login.html',
+  'cookie' => 'pgv_pvi=724215808; PHPSESSID=bpgskvq46i96ncieg4cf8bkc16',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000593s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.006891s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.000270s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T22:39:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/law_list.html
+[ log ] www.prison.com/admin/index/law_list.html [运行时间：0.097196s][吞吐率：10.29req/s] [内存消耗：2,634.07kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'law_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.prison.com/admin/index/index.html',
+  'cookie' => 'pgv_pvi=724215808; PHPSESSID=bpgskvq46i96ncieg4cf8bkc16',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->law_list[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\law_list.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009705s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_law` [ RunTime:0.011548s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_law` LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_law` LIMIT 0,4 [ RunTime:0.000317s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010257s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.012612s ]
+[ sql ] [ SQL ] SELECT `username` FROM `jy_user` WHERE  (  Id=2 ) LIMIT 1 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT `username` FROM `jy_user` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT `username` FROM `jy_user` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT `username` FROM `jy_user` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.000241s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T22:39:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/law_up/Id/1.html
+[ log ] www.prison.com/admin/index/law_up/Id/1.html [运行时间：0.052449s][吞吐率：19.07req/s] [内存消耗：2,502.25kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'law_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.prison.com/admin/index/law_list.html',
+  'cookie' => 'pgv_pvi=724215808; PHPSESSID=bpgskvq46i96ncieg4cf8bkc16',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'Id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->law_up[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\law_up.html [ array (
+  0 => 'vo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001328s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_law` [ RunTime:0.012046s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_law` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.000366s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T22:41:15+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.prison.com/ [运行时间：0.023546s][吞吐率：42.47req/s] [内存消耗：1,347.21kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=724215808; PHPSESSID=bpgskvq46i96ncieg4cf8bkc16',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-07T22:41:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/
+[ log ] www.prison.com/admin/ [运行时间：0.055323s][吞吐率：18.08req/s] [内存消耗：2,518.62kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=724215808; PHPSESSID=bpgskvq46i96ncieg4cf8bkc16',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010159s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.005687s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.000428s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T22:41:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/law_list.html
+[ log ] www.prison.com/admin/index/law_list.html [运行时间：0.087102s][吞吐率：11.48req/s] [内存消耗：2,789.57kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'law_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.prison.com/admin/',
+  'cookie' => 'pgv_pvi=724215808; PHPSESSID=bpgskvq46i96ncieg4cf8bkc16',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->law_list[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\law_list.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000687s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_law` [ RunTime:0.011915s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_law` LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_law` LIMIT 0,4 [ RunTime:0.000410s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010541s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.007625s ]
+[ sql ] [ SQL ] SELECT `username` FROM `jy_user` WHERE  (  Id=2 ) LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT `username` FROM `jy_user` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT `username` FROM `jy_user` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT `username` FROM `jy_user` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.000170s ]
+
+---------------------------------------------------------------
+[ 2017-06-07T22:41:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/law_up/Id/1.html
+[ log ] www.prison.com/admin/index/law_up/Id/1.html [运行时间：0.064946s][吞吐率：15.40req/s] [内存消耗：2,502.25kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'law_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.prison.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.prison.com/admin/index/law_list.html',
+  'cookie' => 'pgv_pvi=724215808; PHPSESSID=bpgskvq46i96ncieg4cf8bkc16',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'Id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->law_up[ D:\phpStudy\WWW\prison\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\prison\public/../application/admin\view\index\law_up.html [ array (
+  0 => 'vo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000855s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_law` [ RunTime:0.007937s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_law` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.000339s ]
+
+---------------------------------------------------------------

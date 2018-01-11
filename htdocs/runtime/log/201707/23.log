@@ -1,0 +1,58 @@
+[ 2017-07-23T08:36:04+08:00 ] 60.205.45.195 219.146.198.25 GET /
+[ log ] www.alroy.cn/ [运行时间：0.033181s][吞吐率：30.14req/s] [内存消耗：2,229.93kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'host' => 'www.alroy.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-23T22:32:58+08:00 ] 60.205.45.195 80.248.225.142 HEAD /
+[ log ] alroy.cn/ [运行时间：0.030788s][吞吐率：32.48req/s] [内存消耗：2,228.92kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'none',
+  'connection' => 'Close',
+  'cookie' => '',
+  'host' => 'alroy.cn',
+  'user-agent' => 'DomainCrawler/3.0 (info@domaincrawler.com; http://www.domaincrawler.com/alroy.cn)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

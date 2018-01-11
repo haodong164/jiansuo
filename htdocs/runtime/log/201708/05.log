@@ -1,0 +1,2316 @@
+[ 2017-08-05T08:30:35+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/login
+[ log ] www.alroy.cn/prisonapi/index/login [运行时间：0.061144s][吞吐率：16.35req/s] [内存消耗：3,143.59kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '36',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->login[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013006s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.003403s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` WHERE  (  membername='root' ) LIMIT 1 [ RunTime:0.002785s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T08:30:35+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/sign_add
+[ log ] www.alroy.cn/prisonapi/index/sign_add [运行时间：0.067481s][吞吐率：14.82req/s] [内存消耗：3,144.31kb] [文件加载：51]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'sign_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '29',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->sign_add[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006789s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_sign` [ RunTime:0.003130s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_sign` WHERE  `mid` = 29 ORDER BY Id desc LIMIT 1 [ RunTime:0.002669s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005192s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] INSERT INTO `jy_sign` (`mid` , `state` , `pubdate` , `month`) VALUES (29 , 1 , '2017-08-05' , 8) [ RunTime:0.002719s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T08:30:37+08:00 ] 60.205.45.195 219.146.198.25 POST /prisonapi/index/sign_none_add
+[ log ] www.alroy.cn/prisonapi/index/sign_none_add [运行时间：0.057370s][吞吐率：17.43req/s] [内存消耗：3,139.52kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prisonapi',
+    1 => 'index',
+    2 => 'sign_none_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.alroy.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '29',
+)
+[ info ] [ RUN ] app\prisonapi\controller\index->sign_none_add[ /data/home/bxu2711760022/htdocs/application/prisonapi/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007595s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_sign` [ RunTime:0.003183s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `jy_sign` WHERE  (  mid=29 and state=1 ) [ RunTime:0.002470s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:09:46+08:00 ] 60.205.45.195 219.146.198.25 GET /
+[ log ] www.alroy.cn/ [运行时间：0.034382s][吞吐率：29.08req/s] [内存消耗：2,230.00kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'host' => 'www.alroy.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-05T09:09:55+08:00 ] 60.205.45.195 219.146.198.25 POST /admin/login/do_login.html
+[ log ] www.alroy.cn/admin/login/do_login.html [运行时间：0.064385s][吞吐率：15.53req/s] [内存消耗：3,161.73kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '49',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'username' => '赵隆宇',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007047s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.003313s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='赵隆宇' ) LIMIT 1 [ RunTime:0.002633s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:09:57+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/index.html
+[ log ] www.alroy.cn/admin/index/index.html [运行时间：0.061050s][吞吐率：16.38req/s] [内存消耗：3,332.48kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/login/do_login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006928s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.003110s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.002576s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:10:00+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/suspect_list.html
+[ log ] www.alroy.cn/admin/index/suspect_list.html [运行时间：0.067629s][吞吐率：14.79req/s] [内存消耗：3,492.85kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/suspect_list.html [ array (
+  0 => 'find',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007741s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.003472s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_suspect` LIMIT 1 [ RunTime:0.002548s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` LIMIT 0,7 [ RunTime:0.002650s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:10:00+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/suspect_add.html
+[ log ] www.alroy.cn/admin/index/suspect_add.html [运行时间：0.057349s][吞吐率：17.44req/s] [内存消耗：2,403.21kb] [文件加载：47]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/suspect_list.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_add[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/suspect_add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-05T09:10:01+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/suspect_list.html
+[ log ] www.alroy.cn/admin/index/suspect_list.html [运行时间：0.069686s][吞吐率：14.35req/s] [内存消耗：3,492.85kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/suspect_list.html [ array (
+  0 => 'find',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007383s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.003119s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_suspect` LIMIT 1 [ RunTime:0.002388s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` LIMIT 0,7 [ RunTime:0.002449s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:10:07+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/suspect_up/Id/1.html
+[ log ] www.alroy.cn/admin/index/suspect_up/Id/1.html [运行时间：0.063184s][吞吐率：15.83req/s] [内存消耗：3,318.48kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/suspect_list.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'Id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_up[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/suspect_up.html [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006302s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.002885s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.002274s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:10:08+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/suspect_list.html
+[ log ] www.alroy.cn/admin/index/suspect_list.html [运行时间：0.068114s][吞吐率：14.68req/s] [内存消耗：3,492.85kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/suspect_list.html [ array (
+  0 => 'find',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007304s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.002976s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_suspect` LIMIT 1 [ RunTime:0.002374s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` LIMIT 0,7 [ RunTime:0.002429s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:10:11+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/suspect_list.html?page=3
+[ log ] www.alroy.cn/admin/index/suspect_list.html?page=3 [运行时间：0.066014s][吞吐率：15.15req/s] [内存消耗：3,493.54kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/suspect_list.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/suspect_list.html [ array (
+  0 => 'find',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007745s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.003583s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_suspect` LIMIT 1 [ RunTime:0.002857s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` LIMIT 14,7 [ RunTime:0.002959s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:10:14+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/suspect_list.html?page=4
+[ log ] www.alroy.cn/admin/index/suspect_list.html?page=4 [运行时间：0.063094s][吞吐率：15.85req/s] [内存消耗：3,466.98kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/suspect_list.html?page=3',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '4',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/suspect_list.html [ array (
+  0 => 'find',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006922s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.003051s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_suspect` LIMIT 1 [ RunTime:0.002513s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` LIMIT 21,7 [ RunTime:0.002591s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:10:16+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/suspect_list.html?page=3
+[ log ] www.alroy.cn/admin/index/suspect_list.html?page=3 [运行时间：0.065369s][吞吐率：15.30req/s] [内存消耗：3,493.48kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/suspect_list.html?page=4',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/suspect_list.html [ array (
+  0 => 'find',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008200s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.003298s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_suspect` LIMIT 1 [ RunTime:0.002600s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` LIMIT 14,7 [ RunTime:0.002448s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:10:21+08:00 ] 60.205.45.195 219.146.198.25 GET /index.php/admin/index/suspect_del/Id/19,20,21,22,23,24,25
+[ log ] www.alroy.cn/index.php/admin/index/suspect_del/Id/19,20,21,22,23,24,25 [运行时间：0.059557s][吞吐率：16.79req/s] [内存消耗：3,313.41kb] [文件加载：55]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/suspect_list.html?page=3',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'Id' => '19,20,21,22,23,24,25',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_del[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007131s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.003282s ]
+[ sql ] [ SQL ] DELETE FROM `jy_suspect`    WHERE  (  Id in(19,20,21,22,23,24,25) ) [ RunTime:0.002936s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:10:22+08:00 ] 60.205.45.195 219.146.198.25 GET /index.php/admin/index/suspect_list.html
+[ log ] www.alroy.cn/index.php/admin/index/suspect_list.html [运行时间：0.070500s][吞吐率：14.18req/s] [内存消耗：3,484.67kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/index.php/admin/index/suspect_del/Id/19,20,21,22,23,24,25',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/suspect_list.html [ array (
+  0 => 'find',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006883s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.003486s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_suspect` LIMIT 1 [ RunTime:0.002353s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` LIMIT 0,7 [ RunTime:0.002458s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:10:25+08:00 ] 60.205.45.195 219.146.198.25 GET /index.php/admin/index/suspect_list.html?page=2
+[ log ] www.alroy.cn/index.php/admin/index/suspect_list.html?page=2 [运行时间：0.066186s][吞吐率：15.11req/s] [内存消耗：3,485.63kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/index.php/admin/index/suspect_list.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/suspect_list.html [ array (
+  0 => 'find',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008080s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.003011s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_suspect` LIMIT 1 [ RunTime:0.002306s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` LIMIT 7,7 [ RunTime:0.002422s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:10:30+08:00 ] 60.205.45.195 219.146.198.25 GET /index.php/admin/index/suspect_del/Id/12,13,14,15,16,17,18
+[ log ] www.alroy.cn/index.php/admin/index/suspect_del/Id/12,13,14,15,16,17,18 [运行时间：0.058196s][吞吐率：17.18req/s] [内存消耗：3,313.54kb] [文件加载：55]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/index.php/admin/index/suspect_list.html?page=2',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'Id' => '12,13,14,15,16,17,18',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_del[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006369s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.002919s ]
+[ sql ] [ SQL ] DELETE FROM `jy_suspect`    WHERE  (  Id in(12,13,14,15,16,17,18) ) [ RunTime:0.002421s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:10:32+08:00 ] 60.205.45.195 219.146.198.25 GET /index.php/admin/index/suspect_list.html
+[ log ] www.alroy.cn/index.php/admin/index/suspect_list.html [运行时间：0.065035s][吞吐率：15.38req/s] [内存消耗：3,484.59kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/index.php/admin/index/suspect_del/Id/12,13,14,15,16,17,18',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/suspect_list.html [ array (
+  0 => 'find',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006549s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.002991s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_suspect` LIMIT 1 [ RunTime:0.002370s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` LIMIT 0,7 [ RunTime:0.002314s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:10:34+08:00 ] 60.205.45.195 219.146.198.25 GET /index.php/admin/index/suspect_list.html?page=2
+[ log ] www.alroy.cn/index.php/admin/index/suspect_list.html?page=2 [运行时间：0.065621s][吞吐率：15.24req/s] [内存消耗：3,459.11kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/index.php/admin/index/suspect_list.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/suspect_list.html [ array (
+  0 => 'find',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006649s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.002970s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_suspect` LIMIT 1 [ RunTime:0.002284s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` LIMIT 7,7 [ RunTime:0.002402s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:18:52+08:00 ] 60.205.45.195 219.146.198.25 GET /index.php/admin/index/suspect_list.html?page=1
+[ log ] www.alroy.cn/index.php/admin/index/suspect_list.html?page=1 [运行时间：0.065039s][吞吐率：15.38req/s] [内存消耗：3,485.32kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/index.php/admin/index/suspect_list.html?page=2',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/suspect_list.html [ array (
+  0 => 'find',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006966s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.003251s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_suspect` LIMIT 1 [ RunTime:0.002375s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` LIMIT 0,7 [ RunTime:0.002354s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:18:57+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/user_list.html
+[ log ] www.alroy.cn/admin/index/user_list.html [运行时间：0.063353s][吞吐率：15.78req/s] [内存消耗：3,469.27kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->user_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/user_list.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007274s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.003118s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_user` LIMIT 1 [ RunTime:0.002742s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` LIMIT 0,4 [ RunTime:0.002662s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:19:14+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/rule_list.html
+[ log ] www.alroy.cn/admin/index/rule_list.html [运行时间：0.062833s][吞吐率：15.92req/s] [内存消耗：3,472.13kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'rule_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->rule_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/rule_list.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006303s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_rule` [ RunTime:0.002861s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_rule` LIMIT 1 [ RunTime:0.002250s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_rule` LIMIT 0,4 [ RunTime:0.002262s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:19:16+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/set_list.html
+[ log ] www.alroy.cn/admin/index/set_list.html [运行时间：0.063753s][吞吐率：15.69req/s] [内存消耗：3,462.59kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'set_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->set_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/set_list.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006335s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_group` [ RunTime:0.003637s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_group` LIMIT 1 [ RunTime:0.002253s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_group` LIMIT 0,4 [ RunTime:0.002248s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:19:19+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/set_add.html
+[ log ] www.alroy.cn/admin/index/set_add.html [运行时间：0.038060s][吞吐率：26.27req/s] [内存消耗：2,403.20kb] [文件加载：47]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'set_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/set_list.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->set_add[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/set_add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-05T09:19:20+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/set_list.html
+[ log ] www.alroy.cn/admin/index/set_list.html [运行时间：0.064992s][吞吐率：15.39req/s] [内存消耗：3,462.59kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'set_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->set_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/set_list.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007776s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_group` [ RunTime:0.003518s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_group` LIMIT 1 [ RunTime:0.002814s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_group` LIMIT 0,4 [ RunTime:0.002773s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:45:06+08:00 ] 60.205.45.195 219.146.198.25 GET /index.php/admin/index/suspect_list.html?page=2
+[ log ] www.alroy.cn/index.php/admin/index/suspect_list.html?page=2 [运行时间：0.073386s][吞吐率：13.63req/s] [内存消耗：3,459.11kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/index.php/admin/index/suspect_list.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/suspect_list.html [ array (
+  0 => 'find',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016738s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.002973s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_suspect` LIMIT 1 [ RunTime:0.002293s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` LIMIT 7,7 [ RunTime:0.002297s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:45:07+08:00 ] 60.205.45.195 219.146.198.25 GET /index.php/admin/index/suspect_list.html?page=1
+[ log ] www.alroy.cn/index.php/admin/index/suspect_list.html?page=1 [运行时间：0.065370s][吞吐率：15.30req/s] [内存消耗：3,485.32kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/index.php/admin/index/suspect_list.html?page=2',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/suspect_list.html [ array (
+  0 => 'find',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006992s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.003202s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_suspect` LIMIT 1 [ RunTime:0.002517s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` LIMIT 0,7 [ RunTime:0.002553s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:45:08+08:00 ] 60.205.45.195 219.146.198.25 GET /index.php/admin/index/suspect_list.html?page=2
+[ log ] www.alroy.cn/index.php/admin/index/suspect_list.html?page=2 [运行时间：0.063442s][吞吐率：15.76req/s] [内存消耗：3,459.11kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'suspect_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/index.php/admin/index/suspect_list.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->suspect_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/suspect_list.html [ array (
+  0 => 'find',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006811s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_suspect` [ RunTime:0.003074s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_suspect` LIMIT 1 [ RunTime:0.002432s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_suspect` LIMIT 7,7 [ RunTime:0.002422s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:45:15+08:00 ] 60.205.45.195 219.146.198.25 GET /
+[ log ] www.alroy.cn/ [运行时间：0.033502s][吞吐率：29.85req/s] [内存消耗：2,230.23kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-05T09:53:26+08:00 ] 60.205.45.195 219.146.198.25 POST /admin/login/do_login.html
+[ log ] www.alroy.cn/admin/login/do_login.html [运行时间：0.058295s][吞吐率：17.15req/s] [内存消耗：3,162.33kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '25',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'leo',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006723s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.002895s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='leo' ) LIMIT 1 [ RunTime:0.002461s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:53:28+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/index.html
+[ log ] www.alroy.cn/admin/index/index.html [运行时间：0.058995s][吞吐率：16.95req/s] [内存消耗：3,332.45kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/login/do_login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006306s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.002882s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  Id=21 ) LIMIT 1 [ RunTime:0.002301s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:53:30+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/user_list.html
+[ log ] www.alroy.cn/admin/index/user_list.html [运行时间：0.066668s][吞吐率：15.00req/s] [内存消耗：3,469.27kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->user_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/user_list.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006569s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.003061s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_user` LIMIT 1 [ RunTime:0.002430s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` LIMIT 0,4 [ RunTime:0.002254s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:53:36+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/rule_list.html
+[ log ] www.alroy.cn/admin/index/rule_list.html [运行时间：0.067425s][吞吐率：14.83req/s] [内存消耗：3,472.13kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'rule_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->rule_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/rule_list.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006899s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_rule` [ RunTime:0.002952s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_rule` LIMIT 1 [ RunTime:0.002313s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_rule` LIMIT 0,4 [ RunTime:0.002470s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:53:37+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/set_list.html
+[ log ] www.alroy.cn/admin/index/set_list.html [运行时间：0.065829s][吞吐率：15.19req/s] [内存消耗：3,462.59kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'set_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->set_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/set_list.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007673s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_group` [ RunTime:0.003477s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_group` LIMIT 1 [ RunTime:0.002821s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_group` LIMIT 0,4 [ RunTime:0.002950s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:53:43+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/user_up/Id/21.html
+[ log ] www.alroy.cn/admin/index/user_up/Id/21.html [运行时间：0.081184s][吞吐率：12.32req/s] [内存消耗：3,342.88kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'user_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/user_list.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'Id' => '21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->user_up[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/user_up.html [ array (
+  0 => 'grouplist',
+  1 => 'info',
+  2 => 'groupid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006990s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_group` [ RunTime:0.002892s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_group` [ RunTime:0.002239s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005227s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.003125s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  Id=21 ) LIMIT 1 [ RunTime:0.002750s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004514s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_group_access` [ RunTime:0.002710s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_group_access` WHERE  (  uid=21 ) LIMIT 1 [ RunTime:0.002276s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:53:47+08:00 ] 60.205.45.195 219.146.198.25 POST /admin/index/user_do_up.html
+[ log ] www.alroy.cn/admin/index/user_do_up.html [运行时间：0.068346s][吞吐率：14.63req/s] [内存消耗：3,261.05kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'user_do_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '716',
+  'content-type' => 'multipart/form-data; boundary=---------------------------223152318528074',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/user_up/Id/21.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '21',
+  'username' => 'leo',
+  'groupid' => '1',
+  'email' => 'leo1016Z@163.com',
+  'telphone' => '15858562356',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->user_do_up[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007324s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.002981s ]
+[ sql ] [ SQL ] UPDATE `jy_user`  SET `username`='leo',`email`='leo1016Z@163.com',`telphone`='15858562356'  WHERE  (  Id=21 ) [ RunTime:0.002374s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004772s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_group_access` [ RunTime:0.002751s ]
+[ sql ] [ SQL ] UPDATE `jy_group_access`  SET `group_id`=1  WHERE  (  uid=21 ) [ RunTime:0.002390s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:53:48+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/user_up/Id/21.html
+[ log ] www.alroy.cn/admin/index/user_up/Id/21.html [运行时间：0.083380s][吞吐率：11.99req/s] [内存消耗：3,342.88kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'user_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/user_list.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'Id' => '21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->user_up[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/user_up.html [ array (
+  0 => 'grouplist',
+  1 => 'info',
+  2 => 'groupid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008496s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_group` [ RunTime:0.003464s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_group` [ RunTime:0.002922s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004674s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.002754s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  Id=21 ) LIMIT 1 [ RunTime:0.002310s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004823s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_group_access` [ RunTime:0.002772s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_group_access` WHERE  (  uid=21 ) LIMIT 1 [ RunTime:0.002396s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:55:08+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/index.html
+[ log ] www.alroy.cn/admin/index/index.html [运行时间：0.057695s][吞吐率：17.33req/s] [内存消耗：3,333.07kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/login/do_login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006446s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.002778s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  Id=21 ) LIMIT 1 [ RunTime:0.002230s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:55:10+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/index.html
+[ log ] www.alroy.cn/admin/index/index.html [运行时间：0.062138s][吞吐率：16.09req/s] [内存消耗：3,333.07kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/login/do_login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006311s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.002843s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  Id=21 ) LIMIT 1 [ RunTime:0.002433s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:55:11+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/index.html
+[ log ] www.alroy.cn/admin/index/index.html [运行时间：0.061681s][吞吐率：16.21req/s] [内存消耗：3,333.07kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/login/do_login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007285s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.003131s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  Id=21 ) LIMIT 1 [ RunTime:0.002621s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:55:11+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/session_del.html
+[ log ] www.alroy.cn/admin/index/session_del.html [运行时间：0.038559s][吞吐率：25.93req/s] [内存消耗：2,411.36kb] [文件加载：48]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'session_del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->session_del[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-05T09:55:13+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/login/index.html
+[ log ] www.alroy.cn/admin/login/index.html [运行时间：0.036061s][吞吐率：27.73req/s] [内存消耗：2,238.67kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/session_del.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-05T09:55:18+08:00 ] 60.205.45.195 219.146.198.25 POST /admin/login/do_login.html
+[ log ] www.alroy.cn/admin/login/do_login.html [运行时间：0.055563s][吞吐率：18.00req/s] [内存消耗：3,162.29kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '49',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/login/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'username' => '赵隆宇',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ /data/home/bxu2711760022/htdocs/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006435s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.002925s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='赵隆宇' ) LIMIT 1 [ RunTime:0.002260s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:55:19+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/index.html
+[ log ] www.alroy.cn/admin/index/index.html [运行时间：0.061314s][吞吐率：16.31req/s] [内存消耗：3,332.48kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/login/do_login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007119s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.003177s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.002677s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:55:21+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/user_list.html
+[ log ] www.alroy.cn/admin/index/user_list.html [运行时间：0.064374s][吞吐率：15.53req/s] [内存消耗：3,469.27kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->user_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/user_list.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006571s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.003041s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_user` LIMIT 1 [ RunTime:0.002316s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` LIMIT 0,4 [ RunTime:0.002321s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:55:23+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/rule_list.html
+[ log ] www.alroy.cn/admin/index/rule_list.html [运行时间：0.066696s][吞吐率：14.99req/s] [内存消耗：3,472.13kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'rule_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->rule_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/rule_list.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006609s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_rule` [ RunTime:0.003330s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_rule` LIMIT 1 [ RunTime:0.002271s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_rule` LIMIT 0,4 [ RunTime:0.002249s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:55:24+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/set_list.html
+[ log ] www.alroy.cn/admin/index/set_list.html [运行时间：0.065646s][吞吐率：15.23req/s] [内存消耗：3,462.59kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'set_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->set_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/set_list.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006712s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_group` [ RunTime:0.002986s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_group` LIMIT 1 [ RunTime:0.002268s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_group` LIMIT 0,4 [ RunTime:0.003543s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:55:25+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/setrule/id/1.html
+[ log ] www.alroy.cn/admin/index/setrule/id/1.html [运行时间：0.079924s][吞吐率：12.51req/s] [内存消耗：3,342.23kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'setrule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/set_list.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->setrule[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/setrule.html [ array (
+  0 => 'info',
+  1 => 'groupid',
+  2 => 'rulelist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008114s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_rule` [ RunTime:0.003374s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_rule` WHERE  (  parentid=0 ) [ RunTime:0.002919s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_rule` WHERE  (  parentid=1 ) [ RunTime:0.002888s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_rule` WHERE  (  parentid=2 ) [ RunTime:0.002923s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005207s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_group` [ RunTime:0.002933s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_group` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002604s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:55:27+08:00 ] 60.205.45.195 219.146.198.25 POST /admin/index/do_setrule.html
+[ log ] www.alroy.cn/admin/index/do_setrule.html [运行时间：0.061732s][吞吐率：16.20req/s] [内存消耗：3,322.71kb] [文件加载：55]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'do_setrule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '82',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/setrule/id/1.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'rule' => 
+  array (
+    0 => '1',
+    1 => '2',
+    2 => '3',
+    3 => '4',
+    4 => '5',
+    5 => '6',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->do_setrule[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007183s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_group` [ RunTime:0.003311s ]
+[ sql ] [ SQL ] UPDATE `jy_group`  SET `rules`='1,2,3,4,5,6'  WHERE  (  id=1 ) [ RunTime:0.002651s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:55:28+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/set_list.html
+[ log ] www.alroy.cn/admin/index/set_list.html [运行时间：0.066141s][吞吐率：15.12req/s] [内存消耗：3,462.73kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'set_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/do_setrule.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->set_list[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/set_list.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006494s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_group` [ RunTime:0.003610s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jy_group` LIMIT 1 [ RunTime:0.002399s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_group` LIMIT 0,4 [ RunTime:0.002216s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T09:55:42+08:00 ] 60.205.45.195 219.146.198.25 GET /admin/index/index.html
+[ log ] www.alroy.cn/admin/index/index.html [运行时间：0.060203s][吞吐率：16.61req/s] [内存消耗：3,332.54kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2711760022/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=vkdu0sd1em7bvshvpj0lldpbs7',
+  'host' => 'www.alroy.cn',
+  'referer' => 'http://www.alroy.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/home/bxu2711760022/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2711760022/htdocs/application/admin/view/index/index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006506s ] mysql:dbname=bdm290462451_db;host=bdm290462451.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.002913s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  Id=1 ) LIMIT 1 [ RunTime:0.002284s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+{include file="public/head"}
+<body >
+<div class="tpl-portlet-components">
+    <div class="portlet-title">
+        <div class="caption font-green bold">
+            <span class="am-icon-code"></span>签到记录表
+        </div>
+        <div class="tpl-portlet-input tpl-fz-ml">
+            <div class="portlet-input input-small input-inline">
+                <div class="input-icon right">
+                    <i class="am-icon-search"></i>
+                    <input type="text" class="form-control form-control-solid" placeholder="搜索..."> </div>
+            </div>
+        </div>
+    </div>
+    <div class="tpl-block">
+        <div class="am-g">
+            <div class="am-u-sm-12 am-u-md-6">
+                <div class="am-btn-toolbar">
+             
+                </div>
+            </div>
+            <div class="am-u-sm-12 am-u-md-3">
+            </div>
+            <div class="am-u-sm-12 am-u-md-3">
+                <div class="am-input-group am-input-group-sm">
+                    <input type="text" class="am-form-field">
+                                <span class="am-input-group-btn">
+            <button class="am-btn  am-btn-default am-btn-success tpl-am-btn-success am-icon-search" type="button"></button>
+          </span>
+                </div>
+            </div>
+        </div>
+        <div class="am-g">
+            <div class="am-u-sm-12">
+                <form class="am-form">
+                    <table class="am-table am-table-striped am-table-hover table-main">
+                        <thead>
+                        <tr>
+							<th class="table-check"><input type="checkbox" id="check_rule_all" class="tpl-table-fz-check" /></th>
+                            <th class="table-id">ID</th>
+                            <th class="table-title">嫌犯ID </th>
+                            <th class="table-author am-hide-sm-only">嫌犯姓名</th>
+                            <th class="table-type">签到时间</th>
+                            <th class="table-set">操作</th>
+                        </tr>
+                        </thead>
+                        {volist id="vo" name="signlist"}
+                        <tr>
+							<td><input type="checkbox" class="ids" /></td>
+                            <td>{$vo.Id}</td>
+                            <td><a href="#">{$vo.mid}</a></td>
+                            <td>{$vo.membername}</td>
+                            <td class="am-hide-sm-only">{$vo.pubdate}</td>
+                            <!-- <td class="am-hide-sm-only"><a href="#">{$vo.status?"通过":"不通过"}</a></td> -->
+                            <td>
+                                <div class="am-btn-toolbar">
+                                    <div class="am-btn-group am-btn-group-xs">
+                                        <a href="{:url('Index/sign_del',['Id'=>$vo['Id']])}" class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only"><span class="am-icon-trash-o"></span> 删除</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        {/volist}
+                        </tbody>
+                    </table>
+                    <div class="am-cf">
+                        <div class="am-fr">
+                            <ul class="am-pagination tpl-pagination">
+                               {$page}
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="tpl-alert"></div>
+</div>
+{include file="public/foot"}
+</body>
+</html>

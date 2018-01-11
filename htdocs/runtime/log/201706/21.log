@@ -1,0 +1,66 @@
+[ 2017-06-21T09:29:11+08:00 ] 192.168.98.120 192.168.98.120 POST /index/index/register
+[ log ] 192.168.98.120/index/index/register [运行时间：0.097258s][吞吐率：10.28req/s] [内存消耗：2,333.19kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '46',
+  'host' => '192.168.98.120',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+  'passwordd' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->register[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002077s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.015999s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.001619s ]
+[ sql ] [ SQL ] INSERT INTO `jy_user` (`username` , `password`) VALUES ('chenxinlei' , '698d51a19d8a121ce581499d7b701668') [ RunTime:0.000729s ]
+
+---------------------------------------------------------------
+[ 2017-06-21T09:29:20+08:00 ] 192.168.98.120 192.168.98.120 POST /index.php
+[ log ] 192.168.98.120/index.php [运行时间：0.058047s][吞吐率：17.23req/s] [内存消耗：2,334.91kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '32',
+  'host' => '192.168.98.120',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010560s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.012997s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000340s ]
+
+---------------------------------------------------------------

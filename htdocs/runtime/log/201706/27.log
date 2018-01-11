@@ -1,0 +1,972 @@
+[ 2017-06-27T08:25:20+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.133832s][吞吐率：7.47req/s] [内存消耗：2,335.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '42',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010553s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.024476s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000728s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:02+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.087280s][吞吐率：11.46req/s] [内存消耗：2,335.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '42',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002586s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.009648s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000749s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:05+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.058672s][吞吐率：17.04req/s] [内存消耗：2,335.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '42',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001378s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.015137s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000635s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:22:23+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.084024s][吞吐率：11.90req/s] [内存消耗：2,334.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '2',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002902s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.008873s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='' ) LIMIT 1 [ RunTime:0.000873s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:22:24+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.055878s][吞吐率：17.90req/s] [内存消耗：2,334.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '2',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010725s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.007986s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='' ) LIMIT 1 [ RunTime:0.000384s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:27:13+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.069493s][吞吐率：14.39req/s] [内存消耗：2,335.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '42',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011107s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.008208s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000510s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:27:23+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.058922s][吞吐率：16.97req/s] [内存消耗：2,335.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '42',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011575s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.008185s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000397s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:32:16+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.068428s][吞吐率：14.61req/s] [内存消耗：2,335.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '42',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010613s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.012129s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000324s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:32:17+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.056842s][吞吐率：17.59req/s] [内存消耗：2,335.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '42',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010933s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.009268s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000389s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:32:18+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.055938s][吞吐率：17.88req/s] [内存消耗：2,335.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '42',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010592s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.006356s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000378s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:32:19+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.054296s][吞吐率：18.42req/s] [内存消耗：2,335.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '42',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010568s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000367s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:32:19+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.056001s][吞吐率：17.86req/s] [内存消耗：2,335.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '42',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001709s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.008171s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000413s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:32:19+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.054297s][吞吐率：18.42req/s] [内存消耗：2,335.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '48',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010779s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.007288s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000396s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:32:19+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.053742s][吞吐率：18.61req/s] [内存消耗：2,335.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '48',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001703s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.009141s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000372s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:32:19+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.057270s][吞吐率：17.46req/s] [内存消耗：2,335.20kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '54',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011215s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.008533s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000371s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:32:38+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.048225s][吞吐率：20.74req/s] [内存消耗：2,335.20kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '54',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001389s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.008698s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000559s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:32:39+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：2,335.20kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '54',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010529s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.007734s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000342s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:32:39+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.055179s][吞吐率：18.12req/s] [内存消耗：2,335.20kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '54',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001304s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.007942s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000445s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:32:39+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.045232s][吞吐率：22.11req/s] [内存消耗：2,335.27kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '60',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001350s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.007273s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000327s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:32:50+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.059109s][吞吐率：16.92req/s] [内存消耗：2,334.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '2',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010932s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.012135s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='' ) LIMIT 1 [ RunTime:0.000427s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:32:53+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.050352s][吞吐率：19.86req/s] [内存消耗：2,334.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '2',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001457s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.012470s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='' ) LIMIT 1 [ RunTime:0.000268s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:33:07+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.070481s][吞吐率：14.19req/s] [内存消耗：2,334.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '2',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001153s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.018195s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='' ) LIMIT 1 [ RunTime:0.000297s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:33:14+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.059391s][吞吐率：16.84req/s] [内存消耗：2,334.71kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '2',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008183s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.008382s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='' ) LIMIT 1 [ RunTime:0.000522s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:33:15+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.062458s][吞吐率：16.01req/s] [内存消耗：2,334.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '2',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011742s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.013284s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='' ) LIMIT 1 [ RunTime:0.000387s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:33:15+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.044978s][吞吐率：22.23req/s] [内存消耗：2,334.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '2',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001249s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.008032s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='' ) LIMIT 1 [ RunTime:0.000392s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:33:16+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.056106s][吞吐率：17.82req/s] [内存消耗：2,334.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '2',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010841s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.007645s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='' ) LIMIT 1 [ RunTime:0.000400s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:33:20+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.059568s][吞吐率：16.79req/s] [内存消耗：2,335.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '42',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010821s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.012823s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000335s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:34:35+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.060668s][吞吐率：16.48req/s] [内存消耗：2,335.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '42',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011256s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.013074s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000439s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T12:46:24+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.062596s][吞吐率：15.98req/s] [内存消耗：2,335.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '42',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001987s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.016180s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000425s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T19:30:29+08:00 ] 192.168.98.254 192.168.98.254 POST /index.php
+[ log ] 192.168.98.254/index.php [运行时间：0.098086s][吞吐率：10.20req/s] [内存消耗：2,335.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\prison\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '42',
+  'host' => '192.168.98.254',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'chenxinlei',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\index\controller\index->index[ D:\phpStudy\WWW\prison\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007515s ] mysql:dbname=prison;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jy_user` [ RunTime:0.010232s ]
+[ sql ] [ SQL ] SELECT * FROM `jy_user` WHERE  (  username='chenxinlei' ) LIMIT 1 [ RunTime:0.000644s ]
+
+---------------------------------------------------------------
